@@ -1,0 +1,46 @@
+<nav>
+  <div class='topNav'>
+    <div id="topNav_home_container">
+      <div id="topNav_home" routerLink="">
+        <p>H</p>
+      </div>
+    </div>
+    <div id="topNav_buttons">
+      <a href="/projects">Projekty</a>
+      <a href="/skills">Umiejętności</a>
+      <a href="/experience">Doświadczenie</a>
+    </div>
+    <div id="topNav_select_container">
+      <select name="" id="topNav_select">
+        <option value="en">English</option>
+        <option value="pl">polski</option>
+        <option value="de">Deutsch</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="slideBar_wrapper">
+    <div class="slideBar">
+      <h1>Lorem Ipsum!</h1>
+      <h2>Dolorum inventore necessitatibus suscipit nam</h2>
+    </div>
+    <div id="slideBar_close" (click)="slideBar_close_active()">
+
+    </div>
+  </div>
+</nav>
+
+<footer>
+  <div id="footer_main">
+    <h1>Lorem Ipsum Dolor Sit Amet:</h1>
+    <div id="footer_media">
+      <div class="media_container fb_style">F</div>
+      <div class="media_container gh_style">G</div>
+    </div>
+  </div>
+  <div id="footer_close" (click)="foot_toggle()">x</div>
+</footer>
+
+<main>
+  <router-outlet></router-outlet>
+</main>

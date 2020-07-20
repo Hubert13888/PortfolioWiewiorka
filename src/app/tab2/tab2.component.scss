@@ -1,0 +1,49 @@
+#background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(243, 243, 28);
+    padding-top: 15vh;
+    width: 98vw;
+    #textbar {
+        flex-direction: column;
+        width: 75vw;
+        padding: 10vh;
+        background-color: #fff;
+
+        h1 {
+            font-size: 2em;
+        }
+        h2 {
+            margin: 5vh 0;
+        }
+
+        .projectContainer {
+            width: 100%;
+            background-color: rgb(245, 229, 11);
+            padding: 10vh 10vw;
+            table, tbody, tr {
+                width: 100%;
+            }
+            tr {
+                justify-content: space-around;
+            }
+            a {
+                width: 15vw;
+                height: 15vw;
+                text-decoration: none;
+                color: #eee;
+                border-radius: 5%;
+            }
+        }
+        #project1 {
+            background-color: #bbb;
+        }
+        #project2 {
+            background-color: #999;
+        }
+        #project3 {
+            background-color: #777;
+        }
+    }
+}

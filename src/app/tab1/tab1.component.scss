@@ -1,0 +1,77 @@
+.slideBar_wrapper {
+    transform: none;
+}
+.slideBar_close_active {
+    transform: translateY(-88%);
+}
+
+#footer_main {
+    transform: none;
+}
+.foot_close_slide_animaion {
+    transform: translateX(-100%) !important;
+}
+.foot_close_rotate_animaion {
+    transform: rotate(-720deg);
+}
+
+#background {
+    background-color: rgb(243, 243, 28);
+    width: 98vw;
+    #textbar {
+        flex-direction: column;
+        width: 75vw;
+        margin: 10vh 15vh 0 0;
+        padding-top: 5vh;
+        background-color: #fff;
+        .textbar_about_me {
+            max-width: 100%;
+            padding: 5vw 10vh;
+            flex-direction: column;
+            h1 {
+                padding-bottom: 5vh;
+                font-size: 5vh !important;
+                font-weight: bold;
+            }
+            
+            h2 {
+                font-size: 4vh;
+                font-weight: bold;
+            }
+            .textbar_about_me_org1 {
+                border-bottom: 3px solid yellow;
+                padding-bottom: 10vh;
+            }
+            .textbar_about_me_org2 {
+                flex-direction: column;
+                padding: 5vw;
+
+                p {
+                    font-size: 150%;
+                    margin-bottom: 5vh;
+                }
+            }
+            h1 {
+                font-size: 25px;
+                margin-bottom: 5vh;
+            }
+        }
+    }
+    #my_photo {
+        max-width: 20vw;
+        max-height: 100vh;
+    }
+    #picture_1 {
+        max-width: 120%;
+        margin-bottom: -10vh;
+    }
+    #picture_2 {
+        max-width: 150%;
+        margin-bottom: -10vh;
+    }
+    #picture_3{
+        min-height: 80vh !important;
+        max-height: 100vh !important;
+        margin-top: 10vh;
+    }
+}
