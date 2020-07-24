@@ -1,6 +1,89 @@
 {
-    "welcome" : {
-        "first-paragraph": "To jest jabłko",
-        "title": "Jabłkowa aplikacja"
+    "general": {
+        "beginning_date": "data",
+        "technologies": "technologie"
+    },
+    "projects" : {
+        "big_title" : "W tej sekcji prezentuję projekty największe, takie które miały wyjść do publiki bądź posiadają inne znaczenie",
+        "medium_title": "Tutaj znajdziesz projekty, które nie są ani zbyt małe ani specjalnie duże",
+        "large_title": "Są tutaj rzeczy małe, które słyżyły mi najczęściej to testów bądź poznania języka",
+        "theSquirrelDragon" : {
+            "title": "Kryptonim: TheSquirreldragon",
+            "date": "listopad 2019",
+            "technologies": "React, Sass, Node.js, Next.js, MongoDB",
+            "description": "W tym momencie projekt ten jest moim oczkiem w głowie. Przy użyciu NextJSa z bazą danych MongoDB chciałbym stworzyć projekt na dużą skalę. Będzie on czymś w rodzaju hybrydy Facebooka i Tindera. Na razie nie chciałbym ujawniać zbytnio szczegółów, bo łączę z tym pomysłem duże nadzieje. W przeciwieństwie do Blackrats pomysł ten jest do zrealizowania w jedną osobę i posiada duże możliwości rozwoju. Jak na razie projekt ten dotarł najdalej ze wszystkich, które zrobiłem – udało mi się rozplanować całą jego mechanikę i połowę z niej już napisać. Zakończenie prac nad wersją alfa powinno nastąpić w połowie 2021 roku."
+        },
+        "blackrats_second": {
+            "title": "Blackrats - podejście drugie i trzecie",
+            "date": "2018 rok",
+            "technologies": "Pug (potem React), Node.js, Next.js, MongoDB",
+            "description": "Do tych wersji projektu Blackrats rozpoczętych w 2018 roku przystąpiliśmy we 2 osoby z moim rosyjskim znajomym. Niestety ale świat jest okrutny i duża różnica czasu jest między nami, dlatego trudno było nam się zgrać, przez co wielkość projektu oraz brak czasu nas przygniotły i obaj uznaliśmy że nie ma na razie sensu go dalej kontynuować. W tym miejscu po raz pierwszy posmakowałem NodeJSa i go pokochałem. Dotarliśmy do tego samego momentu co w wersji pierwszej, aczkolwiek tym razem, nawet powracając do niego po długim czasie wiem co gdzie się znajduje i byłbym w stanie go kontynuować."
+        },
+        "wspoldzielnia": {
+            "title": "Współdzielnia",
+            "date": "2017 rok",
+            "technologies": "HTML, CSS, JQuery, PHP, Symfony, Firebase",
+            "description": "Projekt rozpoczęty w trakcie pisania pierwszej wersji Blackrats w 2017 roku. Będąc na umowie-zlecenie pisałem wraz ze znajomym z liceum duży projekt dla zleceniodawcy z Tarnowa podgórnego, za który miałem otrzymać 10% zysku. Ja pisałem stronę (wtedy jeszcze nie wiedziałem że Symfony nie jest dobrym frameworkiem dla sklepów internetowych). Pan ten na szczęście okazał się być na tyle niekompetentny, że uznałem ten projekt za fikcję i szybko się z nim rozstałem. Dodatkowo postanowiłem lepiej przygotować się na zbliżające się matury."
+        },
+        "Blackrats_first": {
+            "title": "Blackrats - wersja pierwsza",
+            "date": "2016 rok",
+            "technologies": "HTML, CSS, JQuery, PHP, Symfony, SQL",
+            "description": "Pierwsza wersja projektu Blackrats rozpoczęta w 2016 roku, którą rozwijałem sam. Jest on bardzo ciekawym pomysłem, który być może kiedyś kontynuuję, dlatego nie chcę zdradzać na czym miałby polegać. Napisany na frameworku Symfony szkielet projektu posiada działającą możliwość logowania i rejestracji, jak i możliwość personalizacji profilu. Z projektu w tym formacie zrezygnowałem ponieważ sam framework był duży, wymagał ogromnej wiedzy i z 5-ciu osób do współpracy."
+        },
+        "OS_Symulator": {
+            "title": "Symulator systemu operacyjnego",
+            "date": "listopad 2019",
+            "technologies": "C++",
+            "description": "Ten projekt został napisany w C++, w celu zaliczenia przedmiotu Systemy Operacyjne. Miał symulować działanie prawdziwego systemu operacyjnego. Gdyby nie determinacja dwóch osób (w tym mnie) to drużyna rozleciałaby się po miesiącu, a nie w przeddzień oddania. Był pisany w 7 osób i każda z nich miała do przygotowania jeden z modułów. Mnie się wylosował interpreter asemblera. Były jeszcze: procesor, procesy, zamki, dysk, interfejs i pamięć RAM. W projekcie udaje się działać na procesach i programach, natomiast nie działa system i-węzłów, co było główną przyczyną rozpadu drużyny."
+        },
+        "assembler": {
+            "title": "Interpreter Asemblera",
+            "date": "marzec 2020",
+            "technologies": "C++",
+            "description": "Jest to projekt wykonany przeze mnie dla indywidualnego zdania przedmiotu po rozpadzie drużyny i klęsce w pierwszym terminie. Do całego programu miałem wykonać prosty interfejs pozwalający na sprawdzenie poprawności działania. Projekt po zaliczeniu niestety zginął i nie mogę znaleźć jego kodu źródłowego do pokazania."
+        },
+        "theImpossibleGame": {
+            "title": "Gra \"The Impossible Game\"",
+            "date": "czerwiec 2019",
+            "technologies": "C++, SFML",
+            "description": "Gra komputerowa napisana w bibliotece SFML dla C++ jest realną kopią znanej flashowej gry World’s Hardest Game. Warto wspomnieć, że na jej wykonanie miałem 3 dni, gdzie zaczynałem mając zerowe pojęcie o tej bibliotece. Gra działa identycznie jak w przedstawionej wyżej produkcji, nie zauważyłem w niej żadnych rażących błędów. Posiada 3 poziomy, system checkpointów, monetki do zdobycia."
+        },
+        "nextjsTemplates": {
+            "title": "Szablony do Next.js",
+            "date": "luty - marzec 2020",
+            "technologies": "React, JavaScript, Next.js, MongoDB",
+            "description": "W trakcie pisania aplikacji wpadłem na pomysł, żeby zrobić templatkę do Next.js, którą będzie można użyć do wielu projektów. Wersja podstawowa (simple) posiada obsługę wielu języków, podstawowych błędów, oraz posiada moduł obsługi logów. Przeznaczona jest do tworzenia statycznych stron dla klientów. Wersja rozszerzona (advanced) posiada obsługę bazy danych MongoDB, sesję oraz podstawowy panel logowania i rejestracji oraz możliwość zmiany swojego profilu. Przeznaczona jest do większych projektów."
+        },
+        "UDP_Python": {
+            "title": "Przesył UDP",
+            "date": "",
+            "technologies": "Python",
+            "description": "Projekt robiony w 2 osoby na zaliczenie przedmiotu Technologie Sieciowe polegający na nawiązaniu transmisji UDP pomiędzy klientem a serwerem (1 do 1) w Pythonie . Aplikacja pyta się czy ma działać po stronie klienta czy serwera. Następnie działa w następujący sposób: Aplikacja prosi klienta o podanie operacji która ma zostać wykonana oraz liczby które mają podlec operacji. Następnie w sposób bezpołączeniowy wysyła dane do serwera, po czym serwer wykonuje operacje na danych i wysyła z powrotem wynik."
+        },
+        "Hamownia_drogowa": {
+            "title": "Aplikacja dla hamowni drogowej",
+            "date": "kwiecień 2020",
+            "technologies": "Python",
+            "description": "Sam projekt hamowni tworzony był w 3 osoby, natomiast aplikacją okienkową w Pythonie do jego obsługi zajmowałem się głównie ja. Pozwala ona na wpisanie odpowiednich parametrów takich jak: masa pojazdu, średnica felgi, profil opony itd. Następnie, po wczytaniu odpowiednich danych z czujnika szczelinowego wyznacza wykres RPM oraz moc silnika. Aplikacja posiada system walidujący dane oraz wygładzający wykres."
+        },
+        "chat": {
+            "title": "Czat PHP",
+            "date": "2016 rok",
+            "technologies": "HTML, CSS, JQuery, PHP, MySQL",
+            "description": "Zrobiony w PHP czat z tablicą użytkowników był jednym z pierwszych projektów które zrobiłem. Użytkownik był w stanie podać nick i wejść na czat, a gdy wyszedł wszyscy inni zalogowani to widzieli. Na czacie można było pisać, a o nowej wiadomości użytkownik był informowany i jego okno automatycznie się scrollowało w dół. Projekt ten w 2017 roku wsadziłem na darmowy serwer cba.pl, który już dziś nie istnieje i zaprosiłem na niego znajomych."
+        },
+        "checkers": {
+            "title": "Warcaby",
+            "date": "2017 rok",
+            "technologies": "HTML, CSS, JQuery",
+            "description": "Zrobione w JavaScript warcaby posiadają możliwość zbijania i poruszania pionkami, oraz zamianę na damki. Jest to projekt, który robiłem po czacie, lecz nigdy go nie skończyłem."
+        },
+        "microscope": {
+            "title": "Mikroskop",
+            "date": "2017 rok",
+            "technologies": "HTML, LESS, JQuery",
+            "description": "Zrobiłem go, ponieważ zauważyłem w pewnym sklepie internetowym możliwość przybliżenia zdjęcia i byłem ciekawy jak to działa. W mojej wersji jednak możemy określić skalę przybliżenia."
+        }
     }
 }

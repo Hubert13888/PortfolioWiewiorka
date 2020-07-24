@@ -20,7 +20,10 @@
             <div class="group_row">
                 <p>{{ 'projects.' + project +'.description' | translate }}</p>
             </div>
-            <img src="/assets/illustrations/me_outline.png" alt="PUT_logo"/>
+            <div class="group_row" *ngIf='urls[project]'>
+                <a *ngFor='let url of urls[project]' href="{{url}}" target="_blank">{{url}}</a>
+            </div>
+            <div id="slider">Tu niedługo będzie slajder zdjęć</div>
         </div>
     </div>
 </div>

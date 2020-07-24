@@ -41,6 +41,11 @@
                     margin-left: 5vw;
                 }
             }
+            
+            & > img {
+                max-width: 70vw;
+                max-width: 40vh;
+            }
         }
     }
 }

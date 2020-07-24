@@ -1,6 +1,8 @@
 {
-    "welcome" : {
-        "first-paragraph": "An apple",
-        "title": "An Apple App"
+    "projects" : {
+        "big_title" : "W tej sekcji prezentuję projekty największe, takie które miały wyjść do publiki bądź posiadają inne znaczenie",
+        "theSquirrelDragon" : {
+            "title": "Kryptonim: SmoczaWiewióra"
+        }
     }
 }
