@@ -6,23 +6,22 @@
       </div>
     </div>
     <div id="topNav_buttons">
-      <a href="/projects">Projekty</a>
-      <a href="/skills">Umiejętności</a>
-      <a href="/experience">Doświadczenie</a>
+      <a href="/projects">{{ 'general.menu.tab2' | translate }}</a>
+      <a href="/skills">{{ 'general.menu.tab3' | translate }}</a>
+      <a href="/experience">{{ 'general.menu.tab4' | translate }}</a>
     </div>
     <div id="topNav_select_container">
-      <select name="" id="topNav_select">
+      <select name="" id="topNav_select" (change)="useLanguage(this)">
         <option value="pl">polski</option>
         <option value="en">English</option>
-        <option value="de">Deutsch</option>
       </select>
     </div>
   </div>
 
   <div class="slideBar_wrapper">
     <div class="slideBar">
-      <h1>Lorem Ipsum!</h1>
-      <h2>Dolorum inventore necessitatibus suscipit nam</h2>
+      <h1>{{ 'general.slider.title' | translate }}</h1>
+      <h2>{{ 'general.slider.subtitle' | translate }}</h2>
     </div>
     <div id="slideBar_close" (click)="slideBar_close_active()">
 
@@ -32,7 +31,7 @@
 
 <footer>
   <div id="footer_main">
-    <h1>Lorem Ipsum Dolor Sit Amet:</h1>
+    <h1>{{ 'general.footer.title' | translate }}</h1>
     <div id="footer_media">
       <div class="media_container fb_style">F</div>
       <div class="media_container gh_style">G</div>

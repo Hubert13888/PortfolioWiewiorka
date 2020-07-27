@@ -17,13 +17,13 @@ export class Tab3Component implements OnInit {
 
 const skills = [
   'photoshop', 'illustrator',
-  'html', 'xml', 'css', 'javascript', 'php', 'typescript',
-  'c', 'cpp', 'python',
+  'html', 'css', 'javascript', 'php', 'typescript',
+  'cpp', 'python',
   'sql', 'mongodb', 'firebase',
-  'nodejs', 'react', 'angular', 'nextjs', 'jquery', 'webpack-babel',
+  'nodejs', 'react', 'angular', 'nextjs', 'jquery',
   'pug', 'less', 'sass',
-  'tkinter', 'matplotlib', 'udp',
   'sfml',
+  'symfony',
   'polish', 'english', 'german', 'russian'
 ];
 

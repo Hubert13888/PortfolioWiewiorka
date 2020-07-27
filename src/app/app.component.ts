@@ -24,9 +24,11 @@ export class AppComponent {
     }
   }
 
-  useLanguage(language: string) {
+  useLanguage(language: any) {
+    alert("I'm very sorry, but this translation is currently unavailable :(");
+    /*
     setCookie('lang', language, 30);
-    this.translate.use(language);
+    this.translate.use(language);*/ 
   }
 
   foot_toggle() {

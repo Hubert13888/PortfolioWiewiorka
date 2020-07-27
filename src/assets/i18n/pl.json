@@ -1,7 +1,40 @@
 {
     "general": {
         "beginning_date": "data",
-        "technologies": "technologie"
+        "technologies": "technologie",
+
+        "menu": {
+            "tab2": "Projekty",
+            "tab3": "Umiejętności",
+            "tab4": "Doświadczenie"
+        },
+        "slider": {
+            "title": "Lotrem ipsum",
+            "subtitle": "Dolor sit amet"
+        },
+        "footer": {
+            "title": "Znajdź mnie na:"
+        }
+    },
+    "main": {
+        "title": {
+            "text": "Witam Cię bardzo serdecznie",
+            "subtext": "Nazywam się Hubert Siwczyński, mam 20 lat i interesuję się Informatyką od kiedy pamiętam. \nW tym portfolio chciałbym Ci pokazać kim jestem oraz rzeczy, którymi się interesuję."
+        },
+        "paragraphs": {
+            "first": {
+                "title": "Kocham odkrywać nowe rzeczy",
+                "text": "Jak dotąd każdy nowy projekt, który zrobiłem ma w sobie coś innego. Zawsze dbam o to, żeby to co robie było kreatywne i przyciągało uwagę innych. Lubię dopieszczać detale, aczkolwiek robię to już po wykonanej głównej pracy."
+            },
+            "second": {
+                "title": "Staram się rozwijać w wielu dziedzinach",
+                "text": "W swoim życiu celuję w wszechstronność. Główną trasą, którą sobie wyznaczyłem jest tworzenie aplikacji webowych, aczkolwiek staram się rozwijać także swoje inne, komputerowe pasje, tj. tworzenie gier, obróbka grafiki, rysowanie, tworzenie muzyki czy montaż filmów. "
+            },
+            "third": {
+                "title": "To ja - Hubert się nazywam",
+                "text": " Jestem osobą dość stałą i niereformowalną. Lubię nowe znajomości twarzą w twarz. Jestem odważny co do nowych rzeczy.\nNigdy się nie obrażam, nie pałam gniewem ani nie próbuję nikogo oszukać. Potrafię być szczerym do bólu. Nie lubię zbyt sztywnej atmosfery.\nJestem z tych co chodzą spać o 3:00, a wstają o 11:00 - wstawanie o 6 czy 7 mnie niszczy ;) "
+            }
+        }
     },
     "projects" : {
         "big_title" : "W tej sekcji prezentuję projekty największe, takie które miały wyjść do publiki bądź posiadają inne znaczenie",
@@ -84,6 +117,112 @@
             "date": "2017 rok",
             "technologies": "HTML, LESS, JQuery",
             "description": "Zrobiłem go, ponieważ zauważyłem w pewnym sklepie internetowym możliwość przybliżenia zdjęcia i byłem ciekawy jak to działa. W mojej wersji jednak możemy określić skalę przybliżenia."
+        }
+    },
+    "skills": {
+        "photoshop": {
+            "title": "Adobe Photoshop",
+            "description": "Programem tym interesuję się od bardzo dawna (stosowałem go do przeróbek zdjęć tj. wycinanie tła itp.), aczkolwiek zacząłem się nim zajmować i tworzyć jakieś ciekawsze projekty od stycznia 2020, kiedy zacząłem przerabiać losowe zdjęcia rodziny i znajomych. Aktualnie wiem jak zrobić podstawową obróbkę obrazu, skorygować go, oraz jak nałożyć filtry. Na pewno umiem przerobić człowieka w zwierzaka. Moim zdaniem jeszcze daleko mi do profesjonalisty, gdyż program ten posiada wiele zaawansowanych funkcji, jednak staram się uczyć ich stopniowo na nowych projektach, gdzie dorzucam coś nowego. Jak na razie wszystkie moje przeróbki zaskoczyły moich znajomych i rodzinę."
+        },
+        "illustrator": {
+            "title": "Adobe Illustrator",
+            "description": "To jest moim zdaniem najlepszy program, z jakiego korzystałem. Ile wiewiórek narysowałem w nim tego na palcach zliczyć nie można. Jedyny taki program, który mnie nigdy nie zmęczy i przy którym mogę siedzieć non-stop. Potrafię rysować rysunki z konturami i bez nich, z gradientem i bez, oraz tak szczegółowe, że mi blue screena wywala. Umiem nakładać filtry na obrazki. Staram się używać także różnych pędzli malarskich, a także tworzyć swoje. W przyszłości chciałbym moje rysunki animować w After Effects i tworzyć scenki. Testowałem także program Inkscape. Na pewno program ten jest szybszy, lecz ma mniej intuicyjny interfejs."
+        },
+        "html": {
+            "title": "HTML 5",
+            "description": "Tak jak życie nie obejdzie się bez śmierci i podatków, tak programista webowy bez znajomości HTMLa. Nigdy nie korzystałem z wersji czwartej, oraz kilku z nowszych tagów (szczególnie tych do audio i wideo), lecz raczej można to szybko znaleźć w internecie i myślę, że gdy będę umieszczał film na stronie to sobie poradzę. Muszę także podszkolić się z korzystania z tagu @media."
+        },
+        "css": {
+            "title": "CSS 3",
+            "description": "Zazwyczaj tworzenie strony rozpoczynam od dania dla każdego elementu na stronie atrybutu display na wartość flex. Znam dobrze flexboxa, transition i gradienty, wiem jaka jest różnica między display: none, a visibility: hidden. Umiem korzystać z atrybutu position bez większych zaskoczeń. Myśle, że dałbym sobie radę z takimi problemami jak stworzenie trójkąta, dymka czy rombu."
+        },
+        "javascript": {
+            "title": "JavaScript",
+            "description": "Na początku totalnie olałem czystego JSa i zacząłem od razu korzystać z JQuery, natomiast wraz z kolejnymi wejściami nowszych standardów odkryłem, że biblioteka ta jest zbędna i zacząłem się uczyć czystego JavaScripta. Teraz już nie wiem czego w nim nie umiem. Jest to bardzo rozbudowany język, w którym cenię elastyczność i niską wrażliwość składniową, co daje mi poczucie wolności gdy w nim piszę. Umiem pracować na funkcjach asynchronicznych, tablicach, klasach i obiektach. Umiem uruchomić nim ivonę, czytać pliki File Readerem, łapać i reagować na błędy promisami. Jak nie potrafię wszystkiego recytować z pamięci to sprawdzam funkcją console.log bądź na MDN, czy StackOverflow. Wydaje mi się, że jestem na bieżąco ze standardem Ecma 2018."
+        },
+        "typescript": {
+            "title": "Typescript",
+            "description": "Traktuję go jak regorystycznego wujka JavaScripta, pomieszanego z C++ od którego wziął typy zmiennych. Uczę się go podczas nauki Angulara, w którym zrobiłem to portfolio. Jakbym robił w nim przed 2015 rokiem to pewnie byłbym zachwycony tymi dobrociami, które dostarczył, aczkolwiek teraz, kiedy w JavaScript jest praktycznie to samo, niezbyt widzę sens używania go poza tym frameworkiem. Niezbyt lubię precyzować typy zmiennych, czego nie lubiłem także robić w C++, jednak ten język jest do tego stworzony."
+        },
+        "php": {
+            "title": "PHP",
+            "description": "Jest bardzo ciekawym i rozbudowanym językiem serwerowym, jednak samo to, że trzeba zmieniać język w którym się myśli skłoniło mnie do przejścia na node.jsa. Mam z nim wiele wspomnień, gdyż to był język w którym zaczynałem pisać pierwsze aplikacje webowe. Większość jego frameworków typu Laravel czy Symfony jest dla dużych i ciężkich projektów. Dodatkowo jedynymi bazami danych z nim w pełni kompatybilnych są bazy SQL. Ostatni raz pisałem w nim cokolwiek w 2018 roku, więc musiałbym sobie przypomnieć co nieco."
+        },
+        "cpp": {
+            "title": "C++",
+            "description": "Język który towarzyszy mi od początku i jeszcze pewnie potowarzyszy. Umiem operować zarówno w nim jak i w czystym C od którego książkę dostałem kiedyś na święta. Mam wrażenie, że poziom edukacji na moich studiach zatrzymał się w 2011 roku i minie jeszcze trochę zanim ruszy dalej. Wiem jak operować na wskaźnikach (gwiazdkowych, jak i shared pointerach), tablicach dynamicznych, wyrażeniach lambda, wątkach, mapach, stosach, listach itd. Znam się na obiektach i właściwościach klas. Nie cierpię podawania w nim wszędzie typów jak i uważam go za język dość stary i kompletnie nieelastyczny."
+        },
+        "python": {
+            "title": "Python",
+            "description": "Ten język jest jak Wordpress dla programisty desktopowego. Wszystko jest wbudowane, można pisać w nim programy zarówno obiektowo, jak i liniowo. Do wielu rzeczy nad którymi bym w C++ 2 godziny siedział, tu wystarczy wczytać odpowiednią bibliotekę i napisać 5 linijek. Język jest przyjemny, lecz moim zdaniem aż zbyt prosty. W mojej opinii jest beznadziejnym językiem na rozpoczęcie nauki… bo masy rzeczy tak naprawdę nie uczy. Gdy tylko mam dowolność wyboru języka na studiach to w nim wszystko piszę, bo napisanie projektu na który przeznaczone jest 5 miesięcy, zajmuje mi 2 dni. Na razie miałem do czynienia z bibliotekami takimi jak: Tkinter, Matplotlib, socket, i xml. Tworzyłem parę aplikacji konsolowych i jedną okienkową."
+        },
+        "sql": {
+            "title": "SQL",
+            "description": "Język bazodanowy, którego celem jest rozdzielenie kilku zależności na 300 tabel, a potem połączenie ich relacjami. Styczność z jego funkcjami mam po dziś dzień i na studiach to jest ulubiony język prowadzących do katowania studenta. Umiem w nim skonstruować triggery, procedury, odczytywać dane w formacie xml. Pierwszą styczność z nim miałem podczas zabawy z językiem PHP. Jest on strasznie dziurawy i łatwo w nim o ataki typu sql injection. Niezbyt podoba mi się fakt, że aby wykasować całą bazę danych wystarczy jedna linijka tekstu. Działałem już z MySQL, SQL Server i PostgreSQL."
+        },
+        "mongodb": {
+            "title": "MongoDB",
+            "description": "Język ten jest najprzyjemniejszym językiem bazodanowym, z jakim miałem okazję się spotkać. Nie jest tak trudny do zabezpieczenia jak Firebase, ponieważ posiada możliwość podania IP własnego serwera jako zabezpieczenie przed intruzami, oraz nie jest tak niebezpieczny jak SQL. Nawiązanie połączenia i otrzymanie danych także nie należy do skomplikowanych rzeczy. Wspiera wiele platform i ma wiele wtyczek. Przy następnym projekcie chciałbym spróbować pluginu Mongoose dla Node.jsa."
+        },
+        "firebase": {
+            "title": "Firebase",
+            "description": "Maszynka do zarabiania pieniędzy napisana przez firmę Google. Wąż ten kusi wieloma udogodnieniami lecz we wnętrzu jest skonstruowany tak, abyś w razie powodzenia nie był w stanie go opuścić. Nie daje żadnego dostępu do danych użytkowników, jak i możliwości zapisu ich gdzie indziej niż w panelu autoryzacji (ponieważ nie da się wtedy napisać reguł dla bazy). Korzystałem z niej raz i mnie nie zachwyciła szczególnie że jej głównym zabezpieczeniem są właśnie reguły. Nadaje się idealnie do projektów real-time oraz tych małych, statycznych aplikacji, ze względu na multum dodatków, które posiada."
+        },
+        "nodejs": {
+            "title": "Node.js",
+            "description": "Przesiadłem się na niego z Apache, gdy uznałem, że praca w PHP jest bez sensu. Podoba mi się sam pomysł pisania w Javascript po stronie serwera. Od razu zacząłem pisać wszystko w Express więc niezbyt się orientuję w czystym node.js. Umiem korzystać z wielu zależności, eksportować i importować moduły. Znam podstawowe paczki do budowania stron, jak multer, czy bcrypt oraz pracowałem na Next.js, który uważam za genialny dodatek bardzo ułatwiający obchodzenie się ze stroną, jej routingiem i konfiguracją webpacka."
+        },
+        "react": {
+            "title": "React",
+            "description": "Nie korzystałem jeszcze z Reacta bez Next.jsa, aczkolwiek uważam framework za bardzo przyjemny i niezwykle elastyczny. Można zrobić w nim dosłownie wszystko bez używania zbędnych bibliotek typu jQuery. Podoba mi się w nim możliwość importowania komponentów i to, że render HTMLa następuje w JavaScripcie, przez co kod JavaScripta można wpinać bezpośrednio do HTMLa. Można całą witrynę zrobić albo na klasach albo na funkcjach z tzw hookami – ja wolę na klasach. Jak na razie jest to mój ulubiony framework i szybko go nic nie pobije."
+        },
+        "angular": {
+            "title": "Angular",
+            "description": "Pierwszy raz z Angularem zetknąłem się robiąc to portfolio. Wiele rzeczy jest w nim uciążliwych, a króluje w nich to, że wymaga korzystania z templatów. Nie jest tak elastyczny jak React i wymaga pisania wszystkich funkcji w komponentach. Jak na razie znam kompletne podstawy i potrafię robić w nim jedynie strony typu wizytówka z podstawowym routingiem i wieloma językami korzystając z i18n. Nauczyłem się go głównie z kursu na Udemy, więc wiem o rzeczach, których jeszcze nie było mi dane samemu stworzyć i użyć, np. providers."
+        },
+        "nextjs": {
+            "title": "Next.js",
+            "description": "Postanowiłem, że napiszę o nim osobno, ponieważ jest on genialnym dodatkiem, bez którego trudno mi sobie na poważnie pomyśleć o dużej witrynie napisanej na node.js. Pomaga on w konfiguracji webpacka pod dodatki typu scss, czy babel (wystarczy zaimportować odpowiednią paczkę w pliku konfiguracji), oraz wprowadza do strony automatyczny routing, dzięki czemu wystarczy wsadzić plik JavaScripta do katalogu, aby stała się dostępna z poziomu przeglądarki. Dobrą rzeczą jest też plik konfiguracyjny _app.js, który zostaje uruchomiony przy wejściu na dowolną stronę, oraz _document.js, który pozwala na utworzenie własnego szkieletu bazowego strony. Naprawdę polecam każdemu, kto jeszcze o nim nie słyszał."
+        },
+        "jquery": {
+            "title": "JQuery",
+            "description": "Biblioteka z którą spędziłem wiele lat i znam ją na wylot. Ratowała tyłki deweloperom stron przez wiele lat, kiedy czysty JavaScript jeszcze kulał. Dobrze systematyzuje pobieranie elementów z DOM, ma łatwe w użyciu funkcje, które są kompatybilne ze starszymi przeglądarkami. Rozwijając stronę z Apache i PHP raczej trudno sobie wyobrazić bez niej życia. React moim zdaniem ją pokrywa w 100% przy okazji daje ciekawsze efekty i zmniejsza ilość pisanego kodu, dlatego w miarę możliwości wolę iść w jego stronę. Z roku na rok biblioteka ta staje się coraz bardziej bezużyteczna, jednak mam do niej spory sentyment."
+        },
+        "pug": {
+            "title": "Pug",
+            "description": "Z pugiem miałem mało do czynienia, ale miałem. Korzystałem z niego jeszcze przed zastosowaniem Reacta. Jest to dobre rozwiązanie dla prostych stron. Ma możliwość podziału strony na bloki i możliwość importowania, oraz różnorakiego ułożenia tych bloków. Posiada też estetyczny zapis tagów… bez tagów. Kod staje się o wiele przejrzystszy. Szkoda, że nie można jeszcze połączyć jego składni z Reactem i jego możliwością wprowadzenia JavaScripta w dowolnym miejscu. Takie narzędzie byłoby na pewno numerem 1 na mojej liście."
+        },
+        "less": {
+            "title": "LESS",
+            "description": "Nie zdarza mi się często korzystać z mixinów lecz wiem do czego służą. Podoba mi się w nim strukturyzacja CSSa oraz możliwość stosowania zmiennych i ich importowania. LESSa używam wtedy, gdy korzystam z Apache, ponieważ można go wtedy łatwo dodać do aplikacji."
+        },
+        "sass": {
+            "title": "SASS",
+            "description": "Używam go w większych projektach, jednak wykorzystuję go w identycznych celach jak LESSa. Nie widzę w nich większych różnic oprócz technologii na których zostały napisane."
+        },
+        "symfony": {
+            "title": "Symfony 2/3",
+            "description": "Był to pierwszy framework na którym robiłem swoje projekty. Był wtedy jeszcze w wersji 3. Nauczyłem się na nim funkcjonować w modelu MVC, niestety wtedy nie korzystałem zbytnio z DRY i kopiowałem kod jak popadło. Framework ten jest/był bardzo duży i w pełni synchroniczny. Dodatkowo opierał się o język PHP, z którym coraz mniej nowszych rzeczy jest kompatybilnych. Z tego co pamiętam był strasznie nieintuicyjny i trudny, jednak po przesiadce na Node.js nic mnie już nie zaskoczyło."
+        },
+        "sfml": {
+            "title": "SFML",
+            "description": "Idealna biblioteka do rozpoczęcia nauki tworzenia gier. Od niej zacząłem i ciekawie mi się z niej pracowało. Czasami bywała tak nieintuicyjna, że 5 godzin zajęło mi, żeby spróbować użyć wskaźnika do pobrania obrazów z dysku. Niestety jest mało informacji w internecie o błędach, które mogą w niej wystąpić. Zrobiłem w niej jedną, piekielnie trudną grę z 3-ma poziomami jak na razie. Myślę, że kiedyś zajmę się tworzeniem innych gier w Uniity, bo bardzo mi się spodobało."
+        },
+        "polish": {
+            "title": "Język polski",
+            "description": "Nie muszę zbyt wiele o nim pisać – mój język ojczysty, mówię w nim od zawsze."
+        },
+        "english": {
+            "title": "Język angielski",
+            "description": "Operuję w nim dobrze zarówno w mowie jak i w piśmie – na pewno na tyle wystarczająco, że znalazłem pracę jako recepcjonista na Islandii. Zdałem na certyfikat ACERT-B2 na studiach, jednak do tej pory go nie otrzymałem do ręki. Sądzę jednak, że jestem gdzieś w okolicach C1 – rozumiem co do słowa, co mówią w filmach na Youtube bez napisów. Z pełnometrażowymi filmami jest tylko trochę gorzej (czytam napisy tylko, kiedy chcę zrozumieć treść w 100%, a nie 80). Jeżeli chodzi o rozmowę to zbytnio nie ma tu problemów, mówię płynne i żywo, czasem zapomnę słowa. Na egzaminie ustnym, na certyfikat miałem 18/20 punktów."
+        },
+        "german": {
+            "title": "Język niemiecki",
+            "description": "Tutaj tylko podstawy i bez fajerwerków. Rozmawiając z Niemcami używam podstawowych słów, jednak staram się robić to poprawnie. Jak na razie nigdy nie miałem problemów z prostą rozmową, kiedy rozmówca stawa się mówić powoli i powtarzać co powiedział. Umiem to czego nauczyłem się w gimnazjum i liceum."
+        },
+        "russian": {
+            "title": "Język rosyjski",
+            "description": "Tego języka uczę się dla frajdy. Jest na tyle podobny do polskiego, że słowa łatwo wchodzą do głowy. Myślę, że sam język znam w podobnym stopniu co niemiecki. Mam znajomych z Rosji, lecz najczęściej rozmawiamy po angielsku. Umiem powoli czytać cyrylicę."
         }
     }
 }

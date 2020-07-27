@@ -8,7 +8,12 @@ import { Component, OnInit } from '@angular/core';
 export class Tab23Component implements OnInit {
 
   public type = 'large';
-  public urls = {}; 
+  public urls = {
+    theSquirrelDragon: [],
+    blackrats_second: ['https://bitbucket.org/unexpectedsyntaxerror/blackrats/src/master/'],
+    wspoldzielnia: [],
+    Blackrats_first: ['https://github.com/Hubert13888/BlackratsSymfony']
+  }; 
   public projects = [
     'theSquirrelDragon',
     'blackrats_second',
