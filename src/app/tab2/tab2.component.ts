@@ -11,5 +11,7 @@ export class Tab2Component implements OnInit {
 
   ngOnInit(): void {
   }
-
+  f(e) {
+    console.log(e);
+  }
 }

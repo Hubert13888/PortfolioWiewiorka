@@ -1,15 +1,18 @@
 <div id="background">
     <div id="textbar">
-        <h1>Projekty</h1>
-        <h2>W tej sekcji wymienię projekty, które wykonałem bądź były w 
-            trakcie realizacji przeze mnie
+        <h1>{{ 'projects.menu.title' | translate }}</h1>
+        <h2>
+            {{ 'projects.menu.subtitle' | translate }}
         </h2>
-        <table class="projectContainer">
+        <table class="projectContainer" (click)="f($event)">
             <tbody>
                 <tr>
-                    <td><a class="project" id="project1" href="/projects/small">Małe</a></td>
-                    <td><a class="project" id="project2" href="/projects/medium">Średnie</a></td>
-                    <td><a class="project" id="project3" href="/projects/large">Duże</a></td>
+                    <td><a class="project" id="project1" href="/projects/small">
+                        {{ 'projects.menu.tabs.first' | translate }}</a></td>
+                    <td><a class="project" id="project2" href="/projects/medium">
+                        {{ 'projects.menu.tabs.second' | translate }}</a></td>
+                    <td><a class="project" id="project3" href="/projects/large">
+                        {{ 'projects.menu.tabs.third' | translate }}</a></td>
                 </tr>
             </tbody>
         </table>

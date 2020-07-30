@@ -9,8 +9,8 @@
             "tab4": "Doświadczenie"
         },
         "slider": {
-            "title": "Lotrem ipsum",
-            "subtitle": "Dolor sit amet"
+            "title": "Portfolio najlepsze jest szczere",
+            "subtitle": "i to takie na zawsze pozostanie"
         },
         "footer": {
             "title": "Znajdź mnie na:"
@@ -19,7 +19,7 @@
     "main": {
         "title": {
             "text": "Witam Cię bardzo serdecznie",
-            "subtext": "Nazywam się Hubert Siwczyński, mam 20 lat i interesuję się Informatyką od kiedy pamiętam. \nW tym portfolio chciałbym Ci pokazać kim jestem oraz rzeczy, którymi się interesuję."
+            "subtext": "Nazywam się Hubert Siwczyński, mam 21 lat i interesuję się Informatyką od kiedy pamiętam. \nW tym portfolio chciałbym Ci pokazać kim jestem oraz rzeczy, którymi się interesuję."
         },
         "paragraphs": {
             "first": {
@@ -40,6 +40,17 @@
         "big_title" : "W tej sekcji prezentuję projekty największe, takie które miały wyjść do publiki bądź posiadają inne znaczenie",
         "medium_title": "Tutaj znajdziesz projekty, które nie są ani zbyt małe ani specjalnie duże",
         "large_title": "Są tutaj rzeczy małe, które słyżyły mi najczęściej to testów bądź poznania języka",
+
+        "menu": {
+            "title": "Projekty",
+            "subtitle": "W tej sekcji wymienię projekty, które wykonałem bądź były w trakcie realizacji przeze mnie",
+            "tabs": {
+                "first": "Małe",
+                "second": "Średnie",
+                "third": "Duże"
+            }
+        },
+
         "theSquirrelDragon" : {
             "title": "Kryptonim: TheSquirreldragon",
             "date": "listopad 2019",
@@ -82,6 +93,12 @@
             "technologies": "C++, SFML",
             "description": "Gra komputerowa napisana w bibliotece SFML dla C++ jest realną kopią znanej flashowej gry World’s Hardest Game. Warto wspomnieć, że na jej wykonanie miałem 3 dni, gdzie zaczynałem mając zerowe pojęcie o tej bibliotece. Gra działa identycznie jak w przedstawionej wyżej produkcji, nie zauważyłem w niej żadnych rażących błędów. Posiada 3 poziomy, system checkpointów, monetki do zdobycia."
         },
+        "portfolioWiewiorka": {
+            "title": "Portfolio wiewiorka",
+            "date": "czerwiec 2020",
+            "technologies": "SASS, Typescript, Angular",
+            "description": "To jest właśnie to portfolio. Specjalny projekt wykonany aby zdobyć jakieś ciekawe praktyki na studia. Specjalnie dla niego nauczyłem się Angulara i Typescripta"
+        },
         "nextjsTemplates": {
             "title": "Szablony do Next.js",
             "date": "luty - marzec 2020",
@@ -120,6 +137,38 @@
         }
     },
     "skills": {
+        "menu": {
+            "title": "Umiejętności",
+            "subtitle": "W tej sekcji opiszę po krótce programy, z których potrafię korzystać i języki w których operuję"
+        },
+        "group1": {
+            "title": "Programy Adobe Creative Cloud"
+        },
+        "group2": {
+            "title": "Języki programowania, markupy i bazy danych",
+            "subgroup1": "Języki Webowe",
+            "subgroup2": "Języki do aplikacji desktopowych",
+            "subgroup3": "Języki bazodanowe"
+        },
+        "group3": {
+            "title": "Biblioteki i frameworki",
+            "subgroup1": "JavaScript",
+            "subgroup2": "HTML/CSS",
+            "subgroup3": "PHP",
+            "subgroup4": "C++"
+        },
+        "group4": {
+            "title": "Języki tradycyjne"
+        },
+        "group5": {
+            "title": "Programy do tworzenia i obróbki muzyki"
+        },
+        "group6": {
+            "title": "Programy do obróbki wideo"
+        },
+        "group7": {
+            "title": "Programy biurowe Microsoft Office"
+        },
         "photoshop": {
             "title": "Adobe Photoshop",
             "description": "Programem tym interesuję się od bardzo dawna (stosowałem go do przeróbek zdjęć tj. wycinanie tła itp.), aczkolwiek zacząłem się nim zajmować i tworzyć jakieś ciekawsze projekty od stycznia 2020, kiedy zacząłem przerabiać losowe zdjęcia rodziny i znajomych. Aktualnie wiem jak zrobić podstawową obróbkę obrazu, skorygować go, oraz jak nałożyć filtry. Na pewno umiem przerobić człowieka w zwierzaka. Moim zdaniem jeszcze daleko mi do profesjonalisty, gdyż program ten posiada wiele zaawansowanych funkcji, jednak staram się uczyć ich stopniowo na nowych projektach, gdzie dorzucam coś nowego. Jak na razie wszystkie moje przeróbki zaskoczyły moich znajomych i rodzinę."
@@ -223,6 +272,30 @@
         "russian": {
             "title": "Język rosyjski",
             "description": "Tego języka uczę się dla frajdy. Jest na tyle podobny do polskiego, że słowa łatwo wchodzą do głowy. Myślę, że sam język znam w podobnym stopniu co niemiecki. Mam znajomych z Rosji, lecz najczęściej rozmawiamy po angielsku. Umiem powoli czytać cyrylicę."
+        }
+    },
+    "experience": {
+        "menu": {
+            "title": "Doświadczenie",
+            "subtitle": "Tutaj można zobaczyć szkoły w których się uczę oraz przebyte staże"
+        },
+        "schools": {
+            "main_title": "Szkoły do których uczęszczam lub jestem ich absolwentem", 
+            "lo3": {
+                "title": "3 Liceum Ogólnokształcące w Poznaniu o profilu matematyczno-fizyczno-informatycznym",
+                "text": "Do szkoły tej chodziłem przez 3 lata od 2015 do 2018 roku. Najbardziej lubiłem w niej mimo wszystko podstawy przedsiębiorczości, geografię i biologię. Był w niej duży nacisk na matematykę i informatykę, które jako rozszerzone zdawałem na maturze. Poznałem tu bardzo inteligentnych ludzi."
+            },
+            "pp": {
+                "title": "Politechnika Poznańska wydział Informatyki i Telekomunikacji",
+                "text": "Jestem już prawie na trzecim roku studiów inżynierskich. Studia te stanowią dla mnie jedynie rozszerzenie wiedzy informatycznej i na razie traktuję je jako ciekawostkę. Wszystkich najpotrzebniejszych rzeczy uczę się sam. Wyniosłem z nich wiedzę jak działać z asemblerem, linuxem, mikroprocesorami, itd."
+            }
+        },
+        "jobs": {
+            "title": "Staże",
+            "fourthFloor": {
+                "title": "Recepcjonista 4th Floor Hotel w Reikjawiku",
+                "text": "Szalona podróż na Islandię latem 2019 roku, którą będę wspominał latami. Pracowałem przez 2 miesiące na stanowisku recepcjonisty w niewielkim hotelu w Rejkiewiku. W przerwach pomiędzy obsługą klientów w języku angielskim i walką z ich PMSem pisałem im ułatwiające życie skrypty do przeglądarki. Zwiedziłem przy okazji Reikjawik jak i dużą część Islandii na wycieczkach."
+            }
         }
     }
 }

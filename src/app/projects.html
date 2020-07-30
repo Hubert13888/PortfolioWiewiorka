@@ -23,7 +23,7 @@
             <div class="group_row" *ngIf='urls[project]'>
                 <a *ngFor='let url of urls[project]' href="{{url}}" target="_blank">{{url}}</a>
             </div>
-            <div id="slider">Tu niedługo będzie slajder zdjęć</div>
+            <app-slider [key]="['abcd']"></app-slider>
         </div>
     </div>
-</div>
+</div> 

@@ -13,6 +13,7 @@ import { Tab23Component } from './tab23/tab23.component';
 import { Tab3Component } from './tab3/tab3.component';
 import { Tab4Component } from './tab4/tab4.component';
 import { Tab31Component } from './tab31/tab31.component';
+import { SliderComponent } from './slider/slider.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { Tab31Component } from './tab31/tab31.component';
     Tab23Component,
     Tab3Component,
     Tab4Component,
-    Tab31Component
+    Tab31Component,
+    SliderComponent
   ],
   imports: [
     BrowserModule,

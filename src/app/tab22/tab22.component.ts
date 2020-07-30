@@ -14,12 +14,16 @@ export class Tab22Component implements OnInit {
       'https://bitbucket.org/Hubert138881/nextjs-template-simple/src/master/',
       'https://bitbucket.org/Hubert138881/nextjs-template-advanced/src/master/'
     ],
+    portfolioWiewiorka: [
+      'https://github.com/Hubert13888/PortfolioWiewiorka'
+    ],
     OS_Symulator: ['https://github.com/Hubert13888/ProjektNaSO'],
     Hamownia_drogowa: ['https://github.com/PUT-PTM-2020/P45/tree/master/Aplikacja_Python']
   };
   public projects = [
     'theImpossibleGame',
     'nextjsTemplates',
+    'portfolioWiewiorka',
     'OS_Symulator',
     'assembler',
     'Hamownia_drogowa'
