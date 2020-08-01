@@ -1,5 +1,7 @@
 <div class="slider">
-    <button class="slider_leftArrow" (click)="change_picture(0)"><</button>
-    <img [src]="base + pictureRoutes[key][currentIndex]"/>
-    <button class="slider_rightArrow" (click)="change_picture(1)">></button>
+    <button class="slider_leftArrow" (click)="change_picture(false)"><</button>
+    <div class="image_container">
+        <img [src]="base + pictureRoutes[key][currentIndex]"/>
+    </div>
+    <button class="slider_rightArrow" (click)="change_picture(true)">></button>
 </div>

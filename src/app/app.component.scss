@@ -162,7 +162,7 @@ footer {
     transition: $footer_closing_transition ease-in-out;
 
     #footer_media {
-      width: 25%;
+      width: 40%;
       min-width: calc(170px + 5vw);
       justify-content: space-around;
     }
@@ -191,6 +191,12 @@ footer {
     }
     .gh_style {
       background-color: #7C007C;
+    }
+    .bb_style {
+      background-color: #0047B3;
+    }
+    .em_style {
+      background-color: #AC2F20;
     }
   }
   #footer_close {

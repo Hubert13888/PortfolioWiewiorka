@@ -1,6 +1,28 @@
 {
-    "abcd": [
-        "abcd.jpg",
-        "efgh.jpg"
+    "chat": [
+        "czat.png",
+        "czat2.png",
+        "czat3.png"
+    ],
+    "microscope": [
+        "mikroskop.png"
+    ],
+    "theImpossibleGame": [
+        "impossible.png",
+        "impossible2.png",
+        "impossible3.png"
+    ],
+    "checkers": [
+        "warcaby.png"
+    ],
+    "Hamownia_drogowa": [
+        "hamownia.png", 
+        "hamownia2.png"
+    ],
+    "UDP_Python": [
+        "udp.png",
+        "udp2.png",
+        "udp3.png",
+        "udp4.png"
     ]
 }

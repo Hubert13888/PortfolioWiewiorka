@@ -38,6 +38,11 @@
                 font-size: 4vh;
                 font-weight: bold;
             }
+            
+            p {
+                font-size: 20px;
+                margin-bottom: 5vh;
+            }
             .textbar_about_me_org1 {
                 border-bottom: 3px solid yellow;
                 padding-bottom: 10vh;
@@ -45,11 +50,6 @@
             .textbar_about_me_org2 {
                 flex-direction: column;
                 padding: 5vw;
-
-                p {
-                    font-size: 150%;
-                    margin-bottom: 5vh;
-                }
             }
             h1 {
                 font-size: 25px;

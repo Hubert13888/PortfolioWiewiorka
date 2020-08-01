@@ -1,7 +1,15 @@
 <div id="background">
     <div id="textbar">
-        <div class="group_description">
-            <div>{{ 'projects.big_title' | translate }}</div>
+        <div class="tab_title" [ngSwitch]="type">
+            <div *ngSwitchCase="'large'">{{ 'projects.menu.tabs.third' | translate }}</div>
+            <div *ngSwitchCase="'medium'">{{ 'projects.menu.tabs.second' | translate }}</div>
+            <div *ngSwitchCase="'small'">{{ 'projects.menu.tabs.first' | translate }}</div>
+        </div>
+
+        <div class="group_description tab_subtitle" [ngSwitch]="type">
+            <div *ngSwitchCase="'large'">{{ 'projects.big_title' | translate }}</div>
+            <div *ngSwitchCase="'medium'">{{ 'projects.medium_title' | translate }}</div>
+            <div *ngSwitchCase="'small'">{{ 'projects.small_title' | translate }}</div>
         </div> 
 
         <div class="group" *ngFor='let project of projects'>
@@ -23,7 +31,7 @@
             <div class="group_row" *ngIf='urls[project]'>
                 <a *ngFor='let url of urls[project]' href="{{url}}" target="_blank">{{url}}</a>
             </div>
-            <app-slider [key]="['abcd']"></app-slider>
+            <app-slider [key]="project" *ngIf="picMap[project]"></app-slider>
         </div>
     </div>
 </div> 

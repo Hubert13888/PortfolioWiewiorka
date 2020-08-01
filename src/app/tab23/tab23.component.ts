@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import picMap from '../../assets/sliderPicMap.json';
 
 @Component({
   selector: 'app-tab23',
@@ -20,6 +21,7 @@ export class Tab23Component implements OnInit {
     'wspoldzielnia',
     'Blackrats_first'
   ];
+  public picMap = picMap;
 
   constructor() { }
 

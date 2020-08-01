@@ -8,6 +8,8 @@ import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 })
 export class Tab1Component implements OnInit {
 
+  birthDate = (new Date).getFullYear() - 1999;
+  
   constructor() { 
   }
 

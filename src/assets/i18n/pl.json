@@ -9,8 +9,8 @@
             "tab4": "Doświadczenie"
         },
         "slider": {
-            "title": "Portfolio najlepsze jest szczere",
-            "subtitle": "i to takie na zawsze pozostanie"
+            "title": "Portfolio najlepsze jest szczere...",
+            "subtitle": "...i to takie na zawsze pozostanie"
         },
         "footer": {
             "title": "Znajdź mnie na:"
@@ -19,7 +19,8 @@
     "main": {
         "title": {
             "text": "Witam Cię bardzo serdecznie",
-            "subtext": "Nazywam się Hubert Siwczyński, mam 21 lat i interesuję się Informatyką od kiedy pamiętam. \nW tym portfolio chciałbym Ci pokazać kim jestem oraz rzeczy, którymi się interesuję."
+            "subtext1": "Nazywam się Hubert Siwczyński, mam ",
+            "subtext2": " lat i interesuję się Informatyką od kiedy pamiętam. \nW tym portfolio chciałbym Ci pokazać kim jestem oraz rzeczy, którymi się interesuję."
         },
         "paragraphs": {
             "first": {
@@ -31,7 +32,7 @@
                 "text": "W swoim życiu celuję w wszechstronność. Główną trasą, którą sobie wyznaczyłem jest tworzenie aplikacji webowych, aczkolwiek staram się rozwijać także swoje inne, komputerowe pasje, tj. tworzenie gier, obróbka grafiki, rysowanie, tworzenie muzyki czy montaż filmów. "
             },
             "third": {
-                "title": "To ja - Hubert się nazywam",
+                "title": "Jestem sobą",
                 "text": " Jestem osobą dość stałą i niereformowalną. Lubię nowe znajomości twarzą w twarz. Jestem odważny co do nowych rzeczy.\nNigdy się nie obrażam, nie pałam gniewem ani nie próbuję nikogo oszukać. Potrafię być szczerym do bólu. Nie lubię zbyt sztywnej atmosfery.\nJestem z tych co chodzą spać o 3:00, a wstają o 11:00 - wstawanie o 6 czy 7 mnie niszczy ;) "
             }
         }
@@ -39,7 +40,7 @@
     "projects" : {
         "big_title" : "W tej sekcji prezentuję projekty największe, takie które miały wyjść do publiki bądź posiadają inne znaczenie",
         "medium_title": "Tutaj znajdziesz projekty, które nie są ani zbyt małe ani specjalnie duże",
-        "large_title": "Są tutaj rzeczy małe, które słyżyły mi najczęściej to testów bądź poznania języka",
+        "small_title": "Są tutaj rzeczy małe, które służyły mi najczęściej do testów bądź poznania języka",
 
         "menu": {
             "title": "Projekty",

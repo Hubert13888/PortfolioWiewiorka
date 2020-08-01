@@ -1,0 +1,35 @@
+.slider {
+    border: red 2px solid;
+    border-radius: 5%;
+    padding:5vw 5vh;
+
+    .image_container {
+        min-height: 70vh;
+        max-height: 70vh;
+        max-width: 70vw;
+        width: 60vw;
+    
+        img {
+            max-height: inherit;
+            height: 100%;
+        }
+    }
+
+    .slider_fullscreen {
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        display: none;
+        top: 0;
+        left: 0;
+        background-color: red;
+        z-index: 5;
+    }
+
+    button {
+        height: 10vh;
+        width: 10vh;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+}
