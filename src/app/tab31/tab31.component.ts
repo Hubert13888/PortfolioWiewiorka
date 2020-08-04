@@ -1,7 +1,7 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import {skills} from '../tab3/tab3.component';
-
+import picMap from '../../assets/sliderPicMap.json';
 
 @Component({
   selector: 'app-tab31',
@@ -12,6 +12,7 @@ export class Tab31Component implements OnInit, OnDestroy {
   private sub: any;
   public item: string;
   public loadSite: boolean = true;
+  public picMap = picMap;
 
   constructor(private route: ActivatedRoute) { }
 
@@ -21,6 +22,7 @@ export class Tab31Component implements OnInit, OnDestroy {
       let isItem = false;
       skills.map(skill => this.item === skill ? isItem = true : void(0));
       if(!isItem) {
+        alert('Niestety zakładka ta nie jest jeszcze dostępna :/');
         location.href = '/skills';
         this.loadSite = false;
       }

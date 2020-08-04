@@ -1,0 +1,6 @@
+<div class="item_wrapper">
+    <img [src]="'/assets/cat_images/'+img+'.png'" class="group_item">
+    <div class="item_info_wrapper" [routerLink]="'/projects/'+cat">
+        <div class="item_info">{{'projects.categories.'+cat | translate}}</div>
+    </div>
+</div>

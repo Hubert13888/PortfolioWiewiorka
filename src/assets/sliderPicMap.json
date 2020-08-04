@@ -24,5 +24,14 @@
         "udp2.png",
         "udp3.png",
         "udp4.png"
+    ],
+    "photoshop": [
+        "wilk.png",
+        "panda.png"
+    ],
+    "illustrator": [
+        "bowling.png",
+        "smok.png",
+        "wiew_niespodz.png"
     ]
 }

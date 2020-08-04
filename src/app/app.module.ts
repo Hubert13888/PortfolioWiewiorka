@@ -14,6 +14,8 @@ import { Tab3Component } from './tab3/tab3.component';
 import { Tab4Component } from './tab4/tab4.component';
 import { Tab31Component } from './tab31/tab31.component';
 import { SliderComponent } from './slider/slider.component';
+import { SkillComponent } from './skill/skill.component';
+import { ProjCatComponent } from './proj-cat/proj-cat.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +27,9 @@ import { SliderComponent } from './slider/slider.component';
     Tab3Component,
     Tab4Component,
     Tab31Component,
-    SliderComponent
+    SliderComponent,
+    SkillComponent,
+    ProjCatComponent
   ],
   imports: [
     BrowserModule,

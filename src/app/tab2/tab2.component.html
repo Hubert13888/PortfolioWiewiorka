@@ -7,12 +7,9 @@
         <table class="projectContainer">
             <tbody>
                 <tr>
-                    <td><a class="project" id="project1" href="/projects/small">
-                        {{ 'projects.menu.tabs.first' | translate }}</a></td>
-                    <td><a class="project" id="project2" href="/projects/medium">
-                        {{ 'projects.menu.tabs.second' | translate }}</a></td>
-                    <td><a class="project" id="project3" href="/projects/large">
-                        {{ 'projects.menu.tabs.third' | translate }}</a></td>
+                    <app-proj-cat cat="small" img="small"></app-proj-cat>
+                    <app-proj-cat cat="medium" img="medium"></app-proj-cat>
+                    <app-proj-cat cat="large" img="big"></app-proj-cat>
                 </tr>
             </tbody>
         </table>

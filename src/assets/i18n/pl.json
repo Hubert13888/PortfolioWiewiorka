@@ -41,14 +41,19 @@
         "big_title" : "W tej sekcji prezentuję projekty największe, takie które miały wyjść do publiki bądź posiadają inne znaczenie",
         "medium_title": "Tutaj znajdziesz projekty, które nie są ani zbyt małe ani specjalnie duże",
         "small_title": "Są tutaj rzeczy małe, które służyły mi najczęściej do testów bądź poznania języka",
+        "categories": {
+            "large": "Duże",
+            "medium": "Średnie",
+            "small": "Małe"
+        },
 
         "menu": {
             "title": "Projekty",
             "subtitle": "W tej sekcji wymienię projekty, które wykonałem bądź były w trakcie realizacji przeze mnie",
             "tabs": {
-                "first": "Małe",
-                "second": "Średnie",
-                "third": "Duże"
+                "first": "Projekty mniejsze",
+                "second": "Średniaki",
+                "third": "Projekty większe"
             }
         },
 
@@ -257,6 +262,33 @@
         "sfml": {
             "title": "SFML",
             "description": "Idealna biblioteka do rozpoczęcia nauki tworzenia gier. Od niej zacząłem i ciekawie mi się z niej pracowało. Czasami bywała tak nieintuicyjna, że 5 godzin zajęło mi, żeby spróbować użyć wskaźnika do pobrania obrazów z dysku. Niestety jest mało informacji w internecie o błędach, które mogą w niej wystąpić. Zrobiłem w niej jedną, piekielnie trudną grę z 3-ma poziomami jak na razie. Myślę, że kiedyś zajmę się tworzeniem innych gier w Uniity, bo bardzo mi się spodobało."
+        },
+        "flstudio": {
+            "title": "FL Studio"
+        },
+        "audacity": {
+            "title": "Audacity"
+        },
+        "sonyvegas": {
+            "title": "Sony Vegas"
+        },
+        "hitfilm": {
+            "title": "Hitfilm"
+        },
+        "word": {
+            "title": "Word"
+        },
+        "excel": {
+            "title": "Excel"
+        },
+        "powerpoint": {
+            "title": "Powerpoint"
+        },
+        "access": {
+            "title": "Access"
+        },
+        "outlook": {
+            "title": "Outlook"
         },
         "polish": {
             "title": "Język polski",

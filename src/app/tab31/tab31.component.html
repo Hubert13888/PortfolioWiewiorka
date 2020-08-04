@@ -5,6 +5,7 @@
             <div class="group_row">
                 <p>{{ 'skills.' + item + '.description' | translate }}</p>
             </div>
+            <app-slider [key]="item" *ngIf="picMap[item]"></app-slider>
         </div>
     </div>
 </div>

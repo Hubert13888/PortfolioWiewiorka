@@ -12,7 +12,7 @@ nav {
   position: fixed;
   top: 0;
   width: 100vw;
-  background-color: #fff;
+  background-color: #EC6C34;
 
   .topNav {
     z-index: 5;
@@ -20,7 +20,8 @@ nav {
     padding: 0 2em;
     width: 100%;
     min-height: $topNav_min_height;
-    background-color: lightgrey;
+    background-color: #D7882E;
+    border-bottom: 2px solid #EDB915;
 
     * {
       min-height: $topNav_min_height;
@@ -33,8 +34,8 @@ nav {
         width: $topNav_length;
         height: $topNav_length;
         min-width: $topNav_min_height;
-        box-shadow: 0 0 0 20px gray;
-        background-color: darkgray;
+        box-shadow: 0 0 0 20px #555;
+        background-color: #888;
         cursor: pointer;
         transition: font-size  0.3s, 
                     background-color 0.3s,
@@ -68,7 +69,7 @@ nav {
                     font-size 0.1s;
 
         &:hover {
-          background-color: gray;
+          background-color: #C05746;
           font-size: 20px;
         }
       }
@@ -100,7 +101,7 @@ nav {
       width: 100%;
       height: 100%;
       border-radius: 0 0 60% 0;
-      background-color: #ccc;
+      background-color: #E4B311;
 
       $h1_left_padding: 10vw;
       $h1_font_size: 8vh;
@@ -126,7 +127,7 @@ nav {
       height: 30vh;
       width: 50vw;
       border-radius: 10px;
-      background-color: darkgray;
+      background-color: #C05746;
       cursor: pointer;
       transition: 0.2s ease-in;
 
@@ -156,9 +157,10 @@ footer {
     justify-content: space-evenly;
     width: 100%;
     height: 100%;
-    
+    border-top: 5px solid #D1A410;
+    border-right: 5px solid #D1A410;
     border-radius: 30% 10% 0 0;
-    background-color: darkgray;
+    background-color: #D7882E;
     transition: $footer_closing_transition ease-in-out;
 
     #footer_media {
@@ -206,8 +208,8 @@ footer {
     max-width: calc(#{$max_footer_height} - 30px);
     min-width: calc(#{$min_footer_height} - 30px);
     border-radius: 50%;
-    border: 4px solid #aaa;
-    background-color: #ccc;
+    border: 4px solid #C05746;
+    background-color: #EDB915;
     color: #333;
     cursor: pointer;
     transition: $footer_closing_transition linear,
