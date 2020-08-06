@@ -34,16 +34,14 @@ nav {
         width: $topNav_length;
         height: $topNav_length;
         min-width: $topNav_min_height;
-        box-shadow: 0 0 0 20px #555;
-        background-color: #888;
+        box-shadow: 0 0 0 20px #A74839;
+        background-color: #C05746;
         cursor: pointer;
         transition: font-size  0.3s, 
-                    background-color 0.3s,
-                    box-shadow 0.1s;
+                    opacity 0.3s;
 
         &:hover {
-          box-shadow: 0 0 0 22px gray;
-          background-color: #bbb;
+          opacity: 80%;
           font-size: 22px;
         }
         p {
@@ -56,21 +54,29 @@ nav {
       justify-content: space-between;
       width: 70%;
       min-width: 50%;
+      border-left: #C05746 2px solid; 
+      border-right: #C05746 2px solid;
       a {
         width: 75%;
         height: $topNav_length;
         text-align: center;
         border-radius: 10px;
+        margin-right: 10px;
+        margin-left: 10px;
         text-decoration: none;
-        color: black;
+        font-weight: bold;
+        color: #222;
+        text-transform: uppercase;
         cursor: pointer;
 
         transition: background-color 0.2s,
-                    font-size 0.1s;
+                    font-size 0.1s,
+                    color 0.3s;
 
         &:hover {
           background-color: #C05746;
-          font-size: 20px;
+          font-size: 90%;
+          color: #ddd;
         }
       }
     }
@@ -102,20 +108,54 @@ nav {
       height: 100%;
       border-radius: 0 0 60% 0;
       background-color: #E4B311;
+      border-bottom: #C05746 10px solid;
 
       $h1_left_padding: 10vw;
       $h1_font_size: 8vh;
+
+      .salami_container {
+        position: absolute;
+        right: 10vw;
+        top: -5vh;
+        width: 30vh;
+        height: 30vh;
+        opacity: 70%;
+        #first_sal {
+          top: 10vh;
+          left: 20px;
+          transform: rotate(80deg);
+        }
+        #second_sal {
+          bottom: 0;
+          left: 10px;
+        }
+        #third_sal {
+          right: 10px;
+          transform: rotate(-60deg);
+        }
+        img {
+          position: absolute;
+          width: 7vh;
+          height: 7vh;
+        }
+      }
 
       h1 {
         font-size: $h1_font_size;
         transform: translateX($h1_left_padding);
         transition: transform 0.1s ease-in;
-      }
+      } 
       h2 {
-        margin-top: 3%;
-        font-size: $h1_font_size / 2;
-        transform: translateX($h1_left_padding * 2);
+        margin-top: 2vh;
+        font-size: $h1_font_size / 2.5;
+        transform: translateX($h1_left_padding * 4);
         transition: transform 0.1s ease-in;
+      }
+      h1, h2 {
+        background-color: rgba(192, 87, 70, 0.6);
+        border-radius: 5%;
+        padding: 1vh 2vw;
+        color: #ddd;
       }
     }
     
@@ -157,31 +197,41 @@ footer {
     justify-content: space-evenly;
     width: 100%;
     height: 100%;
-    border-top: 5px solid #D1A410;
-    border-right: 5px solid #D1A410;
+    border-top: 5px solid #E4B311;
+    border-right: 5px solid #E4B311;
     border-radius: 30% 10% 0 0;
-    background-color: #D7882E;
+    background-color: #C05746;
     transition: $footer_closing_transition ease-in-out;
 
     #footer_media {
       width: 40%;
       min-width: calc(170px + 5vw);
       justify-content: space-around;
+      background-color: rgb(215, 136, 46);
+      border-radius: 10px;
+      padding: 2vh 5vw;
     }
 
     h1 {
       font-size: calc(#{$min_footer_height} / 4 + 1.5vh);
+      text-align: right;
+      background-color: #E4B311;
+      padding: 1vh 3vw;
+      color: #fff;
+      border-radius: 10%;
     }
 
     .media_container {
-      width: calc(#{$footer_height} - 20px);
-      height: calc(#{$footer_height} - 20px);
-      max-height: calc(#{$max_footer_height} - 20px);
-      min-height: calc(#{$min_footer_height} - 20px);
-      max-width: calc(#{$max_footer_height} - 20px);
-      min-width: calc(#{$min_footer_height} - 20px);
-      border-radius: 10px;
-      color: #fff;
+      background: url(/assets/illustrations/mushroom.png);
+      background-size: contain;
+      background-repeat: no-repeat;
+      max-height: calc(#{$max_footer_height});
+      min-height: calc(#{$min_footer_height});
+      max-width: calc(#{$max_footer_height});
+      min-width: calc(#{$min_footer_height});
+      border-radius: 50%;
+      opacity: 80%; 
+      color: #333;
       cursor: pointer;
       transition: filter 0.5s;
     }
@@ -190,15 +240,21 @@ footer {
     }
     .fb_style {
       background-color: #4F70B8;
+      margin-top: -10px;
+      transform: rotate(10deg);
     }
     .gh_style {
       background-color: #7C007C;
+      transform: rotate(-40deg);
     }
     .bb_style {
       background-color: #0047B3;
+      margin-top: 10px;
+      transform: rotate(40deg);
     }
     .em_style {
       background-color: #AC2F20;
+      transform: rotate(-20deg);
     }
   }
   #footer_close {

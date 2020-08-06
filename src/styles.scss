@@ -15,7 +15,6 @@ time, mark, audio, video {
     padding: 0;
     border: 0;
     font-size: 100%;
-    font-family: 'Lato', sans-serif;
     vertical-align: baseline; 
 }
 /* HTML5 display-role reset for older browsers */
@@ -43,6 +42,10 @@ table {
     border-spacing: 0;
 }
 
+::selection {
+    background-color: #ffe342;
+}
+
 .slideBar_wrapper {
     transform: translateY(-88%);
 }
@@ -50,6 +53,18 @@ table {
     transform: none;
 }
 
+select {
+    background: rgba(0,0,0,0.3);
+    color:#fff;
+    text-shadow: 0 1px 0 rgba(0,0,0,0.4);
+}
+
+* {
+    font-family: "Questrial", sans-serif;
+}
+p {
+    font-family: 'Lato', sans-serif;
+}
 
 #footer_main {
     transform: translateX(-100%);
