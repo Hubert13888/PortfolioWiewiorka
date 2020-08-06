@@ -1,5 +1,4 @@
 .slider {
-    border: red 2px solid;
     border-radius: 5%;
     padding:5vw 5vh;
 
@@ -8,10 +7,15 @@
         max-height: 70vh;
         max-width: 60vw;
         width: 60vw;
+        border: #3E657C 5px solid;
+        background-color: #9CC0C2;
+        padding: 2vh 1vw;
     
         img {
             max-height: inherit;
             height: 100%;
+            filter: drop-shadow(0px 0px 5px gray);
+            border-radius: 10px;
         }
     }
 
@@ -32,11 +36,23 @@
 
         cursor: pointer;
     }
+    .slider_arrow {
+        background-color: transparent;
+        border: none;
+        color: #3E657C;
+        font-size: 8vh;
+        border-radius: 50%;
+        padding-bottom: 5px;
+        transition: background-color 250ms;
+
+        &:hover {
+            background-color: #9CC0C2;
+        }
+    }
     .slider_leftArrow {
-        border-radius: 30% 0 0 30%;
+        margin-right: 2vw;
     }
     .slider_rightArrow {
-        border-radius: 0 30% 30% 0;
-
+        margin-left: 2vw;
     }
 }

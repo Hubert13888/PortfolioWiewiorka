@@ -1,7 +1,7 @@
 <div class="slider">
-    <button class="slider_leftArrow" (click)="change_picture(false)"><</button>
+    <button class="slider_leftArrow slider_arrow" *ngIf="pictureRoutes[key].length > 1" (click)="change_picture(false)"><</button>
     <div class="image_container">
         <img [src]="base + pictureRoutes[key][currentIndex]"/>
     </div>
-    <button class="slider_rightArrow" (click)="change_picture(true)">></button>
+    <button class="slider_rightArrow slider_arrow" *ngIf="pictureRoutes[key].length > 1" (click)="change_picture(true)">></button>
 </div>

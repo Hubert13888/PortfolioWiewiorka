@@ -1,34 +1,34 @@
 <div id="background">
     <div id="textbar">
         <div class="tab_title" [ngSwitch]="type">
-            <div *ngSwitchCase="'large'">{{ 'projects.menu.tabs.third' | translate }}</div>
-            <div *ngSwitchCase="'medium'">{{ 'projects.menu.tabs.second' | translate }}</div>
-            <div *ngSwitchCase="'small'">{{ 'projects.menu.tabs.first' | translate }}</div>
+            <h1 *ngSwitchCase="'large'">{{ 'projects.menu.tabs.third' | translate }}</h1>
+            <h1 *ngSwitchCase="'medium'">{{ 'projects.menu.tabs.second' | translate }}</h1>
+            <h1 *ngSwitchCase="'small'">{{ 'projects.menu.tabs.first' | translate }}</h1>
         </div>
 
         <div class="group_description tab_subtitle" [ngSwitch]="type">
-            <div *ngSwitchCase="'large'">{{ 'projects.big_title' | translate }}</div>
-            <div *ngSwitchCase="'medium'">{{ 'projects.medium_title' | translate }}</div>
-            <div *ngSwitchCase="'small'">{{ 'projects.small_title' | translate }}</div>
+            <subhead *ngSwitchCase="'large'">{{ 'projects.big_title' | translate }}</subhead>
+            <subhead *ngSwitchCase="'medium'">{{ 'projects.medium_title' | translate }}</subhead>
+            <subhead *ngSwitchCase="'small'">{{ 'projects.small_title' | translate }}</subhead>
         </div> 
 
         <div class="group" *ngFor='let project of projects'>
-            <div class="group_title">{{ 'projects.' + project +'.title' | translate }}</div>
+            <h2 class="group_title">{{ 'projects.' + project +'.title' | translate }}</h2>
 
             <div class="group_subtitle">
-                <div class="group_subtitle_date">
-                    {{ 'general.beginning_date' | translate | titlecase }}:
-                    {{ 'projects.' + project +'.date' | translate }}
+                <div class="group_subtitle_date subtitle_info">
+                    <p class="subtitle_info_title">{{ 'general.beginning_date' | translate | titlecase }}</p>
+                    <p>{{ 'projects.' + project +'.date' | translate }}</p>
                 </div>
-                <div class="group_subtitle_techniques">
-                    {{ 'general.technologies' | translate | titlecase }}:
-                    {{ 'projects.' + project +'.technologies' | translate }}
+                <div class="group_subtitle_techniques subtitle_info">
+                    <p class="subtitle_info_title">{{ 'general.technologies' | translate | titlecase }}</p>
+                    <p>{{ 'projects.' + project +'.technologies' | translate }}</p>
                 </div>
             </div>
             <div class="group_row">
                 <p>{{ 'projects.' + project +'.description' | translate }}</p>
             </div>
-            <div class="group_row" *ngIf='urls[project]'>
+            <div class="group_row links" *ngIf='urls[project]'>
                 <a *ngFor='let url of urls[project]' href="{{url}}" target="_blank">{{url}}</a>
             </div>
             <app-slider [key]="project" *ngIf="picMap[project]"></app-slider>

@@ -1,5 +1,4 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+html, body, div, span, applet, object, iframe, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
@@ -46,6 +45,15 @@ table {
     background-color: #ffe342;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+}
+subhead {
+    text-align: center;
+    margin-bottom: 10vh;
+    font-style: italic;
+    border-bottom: #E4B311 2px solid;
+}
 .slideBar_wrapper {
     transform: translateY(-88%);
 }
@@ -57,6 +65,9 @@ select {
     background: rgba(0,0,0,0.3);
     color:#fff;
     text-shadow: 0 1px 0 rgba(0,0,0,0.4);
+}
+h1 {
+    text-transform: uppercase;
 }
 
 * {
@@ -74,11 +85,4 @@ p {
 }
 .foot_close_rotate_animaion {
     transform: rotate(720deg);
-}
-.tab_title {
-    font-size: 2.5em;
-}
-.tab_subtitle {
-    font-size: 1.25em;
-    margin: 5vh 0;
 }

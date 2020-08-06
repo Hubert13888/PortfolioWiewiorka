@@ -14,12 +14,11 @@
         .projectContainer {
             width: 100%;
             background-color: #9CC0C2;
-            padding: 10vh 10vw;
-            table, tbody, tr {
-                width: 100%;
-            }
-            tr {
-                justify-content: space-around;
+            padding: 15vh 0vw;
+            justify-content: center;
+            
+            & > * {
+                margin: 0 2vw;
             }
         }
     }

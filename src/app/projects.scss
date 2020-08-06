@@ -11,6 +11,10 @@
         padding: 10vh;
         background-color: #ddd;
 
+        .tab_subtitle {
+            text-align: center;
+        }
+
         .group_description {
             padding-bottom: 8vh;
         }
@@ -18,14 +22,31 @@
             flex-direction: column;
             width: 100%;
             margin: 5vh 0;
+            
+            .links {
+                flex-direction: column;
+                a {
+                    width: 100%;
+                    margin-top: 2vh;
+                    text-align: center;
+                }
+            }
 
             .group_title {
                 margin-bottom: 5vh;
             }
             .group_subtitle {
                 margin: 2vh 10vw;
-                align-self: start;
+                justify-content: space-between;
+                width: 50%;
 
+                .subtitle_info {
+                    flex-direction: column;
+
+                    .subtitle_info_title {
+                        font-weight: bold;
+                    }
+                }
             }
             .group_row {
                 width: 100%;

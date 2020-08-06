@@ -113,7 +113,7 @@
         },
         "UDP_Python": {
             "title": "Przesył UDP",
-            "date": "",
+            "date": "kwiecień 2019",
             "technologies": "Python",
             "description": "Projekt robiony w 2 osoby na zaliczenie przedmiotu Technologie Sieciowe polegający na nawiązaniu transmisji UDP pomiędzy klientem a serwerem (1 do 1) w Pythonie . Aplikacja pyta się czy ma działać po stronie klienta czy serwera. Następnie działa w następujący sposób: Aplikacja prosi klienta o podanie operacji która ma zostać wykonana oraz liczby które mają podlec operacji. Następnie w sposób bezpołączeniowy wysyła dane do serwera, po czym serwer wykonuje operacje na danych i wysyła z powrotem wynik."
         },

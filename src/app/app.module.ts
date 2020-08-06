@@ -16,6 +16,7 @@ import { Tab31Component } from './tab31/tab31.component';
 import { SliderComponent } from './slider/slider.component';
 import { SkillComponent } from './skill/skill.component';
 import { ProjCatComponent } from './proj-cat/proj-cat.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -41,7 +42,8 @@ import { ProjCatComponent } from './proj-cat/proj-cat.component';
         useFactory: HttpLoaderFactory,
         deps: [HttpClient]
       }
-    })
+    }),
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
