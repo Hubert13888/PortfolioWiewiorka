@@ -1,9 +1,12 @@
 <div id="background">
     <div id="textbar">
-        <h1 class="tab_title">{{ 'projects.menu.title' | translate }}</h1>
-        <subhead class="tab_subtitle">
-            {{ 'projects.menu.subtitle' | translate }}
-        </subhead>
+        <header>
+            <h1 class="tab_title">{{ 'projects.menu.title' | translate }}</h1>
+            <p class="tab_subtitle">
+                {{ 'projects.menu.subtitle' | translate }}
+            </p>
+        </header>
+        
         <div class="projectContainer">
             <app-proj-cat cat="small" img="small"></app-proj-cat>
             <app-proj-cat cat="medium" img="medium"></app-proj-cat>

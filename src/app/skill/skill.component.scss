@@ -35,7 +35,12 @@
             min-height: inherit;
             padding: inherit;
             border-radius: 7%;
-            background-color: #EDB915;
+            background-color: rgba(237, 185, 21, 0.9);
+
+            p {
+                color: #002A32;
+                font-size: 4vh; 
+            }
         } 
     }
 

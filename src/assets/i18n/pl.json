@@ -29,16 +29,16 @@
             },
             "second": {
                 "title": "Staram się rozwijać w wielu dziedzinach",
-                "text": "W swoim życiu celuję w wszechstronność. Główną trasą, którą sobie wyznaczyłem jest tworzenie aplikacji webowych, aczkolwiek staram się rozwijać także swoje inne, komputerowe pasje, tj. tworzenie gier, obróbka grafiki, rysowanie, tworzenie muzyki czy montaż filmów. "
+                "text": "W swoim życiu celuję w wszechstronność. Główną zadaniem sobie wyznaczyłem jest tworzenie aplikacji webowych, aczkolwiek staram się rozwijać także swoje inne, komputerowe pasje, tj. tworzenie gier, obróbka grafiki, rysowanie, tworzenie muzyki czy montaż filmów. Od zawsze kręciły mnie rzeczy wielkie."
             },
             "third": {
-                "title": "Jestem sobą",
-                "text": " Jestem osobą dość stałą i niereformowalną. Lubię nowe znajomości twarzą w twarz. Jestem odważny co do nowych rzeczy.\nNigdy się nie obrażam, nie pałam gniewem ani nie próbuję nikogo oszukać. Potrafię być szczerym do bólu. Nie lubię zbyt sztywnej atmosfery.\nJestem z tych co chodzą spać o 3:00, a wstają o 11:00 - wstawanie o 6 czy 7 mnie niszczy ;) "
+                "title": "Jestem i będę na zawsze sobą",
+                "text": "Jestem osobą dość stałą i niereformowalną, którą interesują rzeczy kreatywne oraz takie, dzięki którym mogę się rozwijać. Lubię zawierać nowe i sensowne znajomości. Jestem odważny co do nowych rzeczy. Potrafię być szczerym do bólu. Niezbyt mi odpowiada sztywna i poważna atmosfera.\nJestem z tych co gdy mają wolne chodzą spać o 3:00, a wstają o 11:00 :)"
             }
         }
     },
     "projects" : {
-        "big_title" : "W tej sekcji prezentuję projekty największe, takie które miały wyjść do publiki bądź posiadają inne znaczenie",
+        "big_title" : "W tej sekcji prezentuję projekty największe, dla szerszej publiczności bądź posiadają inne znaczenie",
         "medium_title": "Tutaj znajdziesz projekty, które nie są ani zbyt małe ani specjalnie duże",
         "small_title": "Są tutaj rzeczy małe, które służyły mi najczęściej do testów bądź poznania języka",
         "categories": {
@@ -61,7 +61,7 @@
             "title": "Kryptonim: TheSquirreldragon",
             "date": "listopad 2019",
             "technologies": "React, Sass, Node.js, Next.js, MongoDB",
-            "description": "W tym momencie projekt ten jest moim oczkiem w głowie. Przy użyciu NextJSa z bazą danych MongoDB chciałbym stworzyć projekt na dużą skalę. Będzie on czymś w rodzaju hybrydy Facebooka i Tindera. Na razie nie chciałbym ujawniać zbytnio szczegółów, bo łączę z tym pomysłem duże nadzieje. W przeciwieństwie do Blackrats pomysł ten jest do zrealizowania w jedną osobę i posiada duże możliwości rozwoju. Jak na razie projekt ten dotarł najdalej ze wszystkich, które zrobiłem – udało mi się rozplanować całą jego mechanikę i połowę z niej już napisać. Zakończenie prac nad wersją alfa powinno nastąpić w połowie 2021 roku."
+            "description": "W tym momencie projekt ten jest moim oczkiem w głowie. Przy użyciu NextJSa z bazą danych MongoDB chciałbym stworzyć projekt na dużą skalę. Będzie on czymś w rodzaju hybrydy Facebooka i innego znanego portalu. Na razie nie chciałbym ujawniać zbytnio szczegółów, bo łączę z tym pomysłem duże nadzieje. W przeciwieństwie do Blackrats pomysł ten jest do zrealizowania w jedną osobę i posiada duże możliwości rozwoju. Jak na razie projekt ten dotarł najdalej ze wszystkich, które zrobiłem – udało mi się rozplanować całą jego mechanikę i połowę z niej już napisać. Zakończenie prac nad wersją alfa powinno nastąpić w połowie 2021 roku."
         },
         "blackrats_second": {
             "title": "Blackrats - podejście drugie i trzecie",
@@ -91,19 +91,19 @@
             "title": "Interpreter Asemblera",
             "date": "marzec 2020",
             "technologies": "C++",
-            "description": "Jest to projekt wykonany przeze mnie dla indywidualnego zdania przedmiotu po rozpadzie drużyny i klęsce w pierwszym terminie. Do całego programu miałem wykonać prosty interfejs pozwalający na sprawdzenie poprawności działania. Projekt po zaliczeniu niestety zginął i nie mogę znaleźć jego kodu źródłowego do pokazania."
+            "description": "Jest to projekt wykonany przeze mnie dla indywidualnego zaliczenia przedmiotu po rozpadzie drużyny i klęsce w pierwszym terminie. Do całego programu miałem wykonać prosty interfejs pozwalający na sprawdzenie poprawności działania. Projekt po zaliczeniu niestety zginął i nie mogę znaleźć jego kodu źródłowego do pokazania."
         },
         "theImpossibleGame": {
             "title": "Gra \"The Impossible Game\"",
             "date": "czerwiec 2019",
             "technologies": "C++, SFML",
-            "description": "Gra komputerowa napisana w bibliotece SFML dla C++ jest realną kopią znanej flashowej gry World’s Hardest Game. Warto wspomnieć, że na jej wykonanie miałem 3 dni, gdzie zaczynałem mając zerowe pojęcie o tej bibliotece. Gra działa identycznie jak w przedstawionej wyżej produkcji, nie zauważyłem w niej żadnych rażących błędów. Posiada 3 poziomy, system checkpointów, monetki do zdobycia."
+            "description": "Gra komputerowa napisana w bibliotece SFML dla C++ jest realną kopią znanej flashowej gry World’s Hardest Game. Warto wspomnieć, że na jej wykonanie miałem 3 dni, gdzie zaczynałem mając zerowe pojęcie o tej bibliotece. Gra działa identycznie jak w przedstawionej wyżej produkcji, nie zauważyłem w niej żadnych rażących błędów. Posiada 3 poziomy, system checkpointów i monetki do zdobycia."
         },
         "portfolioWiewiorka": {
             "title": "Portfolio wiewiorka",
             "date": "czerwiec 2020",
             "technologies": "SASS, Typescript, Angular",
-            "description": "To jest właśnie to portfolio. Specjalny projekt wykonany aby zdobyć jakieś ciekawe praktyki na studia. Specjalnie dla niego nauczyłem się Angulara i Typescripta"
+            "description": "Ten projekt właśnie przeglądasz :). Specjalny projekt wykonany aby zdobyć jakieś ciekawe praktyki na studia. Specjalnie dla niego nauczyłem się Angulara i Typescripta. Na wszystko poświęciłem sporo czasu. Ma być zwieńczeniem tego co umiem do tej pory."
         },
         "nextjsTemplates": {
             "title": "Szablony do Next.js",
@@ -115,7 +115,7 @@
             "title": "Przesył UDP",
             "date": "kwiecień 2019",
             "technologies": "Python",
-            "description": "Projekt robiony w 2 osoby na zaliczenie przedmiotu Technologie Sieciowe polegający na nawiązaniu transmisji UDP pomiędzy klientem a serwerem (1 do 1) w Pythonie . Aplikacja pyta się czy ma działać po stronie klienta czy serwera. Następnie działa w następujący sposób: Aplikacja prosi klienta o podanie operacji która ma zostać wykonana oraz liczby które mają podlec operacji. Następnie w sposób bezpołączeniowy wysyła dane do serwera, po czym serwer wykonuje operacje na danych i wysyła z powrotem wynik."
+            "description": "Projekt robiony w 2 osoby na zaliczenie przedmiotu Technologie Sieciowe polegający na nawiązaniu transmisji UDP pomiędzy klientem a serwerem (1 do 1) w Pythonie. Aplikacja pyta się czy ma działać po stronie klienta czy serwera. Następnie działa w następujący sposób: Aplikacja prosi klienta o podanie operacji która ma zostać wykonana oraz liczby które mają podlec operacji. Następnie w sposób bezpołączeniowy wysyła dane do serwera, po czym serwer wykonuje operacje na danych i wysyła z powrotem wynik."
         },
         "Hamownia_drogowa": {
             "title": "Aplikacja dla hamowni drogowej",
@@ -133,7 +133,7 @@
             "title": "Warcaby",
             "date": "2017 rok",
             "technologies": "HTML, CSS, JQuery",
-            "description": "Zrobione w JavaScript warcaby posiadają możliwość zbijania i poruszania pionkami, oraz zamianę na damki. Jest to projekt, który robiłem po czacie, lecz nigdy go nie skończyłem."
+            "description": "Zrobione w JavaScript warcaby posiadają możliwość zbijania i poruszania pionkami, oraz zamianę na damki. Jest to projekt, który robiłem po czacie, lecz nigdy go nie skończyłem, natomiast umieszczam tu jego kod tak na pamiątkę."
         },
         "microscope": {
             "title": "Mikroskop",
@@ -177,31 +177,31 @@
         },
         "photoshop": {
             "title": "Adobe Photoshop",
-            "description": "Programem tym interesuję się od bardzo dawna (stosowałem go do przeróbek zdjęć tj. wycinanie tła itp.), aczkolwiek zacząłem się nim zajmować i tworzyć jakieś ciekawsze projekty od stycznia 2020, kiedy zacząłem przerabiać losowe zdjęcia rodziny i znajomych. Aktualnie wiem jak zrobić podstawową obróbkę obrazu, skorygować go, oraz jak nałożyć filtry. Na pewno umiem przerobić człowieka w zwierzaka. Moim zdaniem jeszcze daleko mi do profesjonalisty, gdyż program ten posiada wiele zaawansowanych funkcji, jednak staram się uczyć ich stopniowo na nowych projektach, gdzie dorzucam coś nowego. Jak na razie wszystkie moje przeróbki zaskoczyły moich znajomych i rodzinę."
+            "description": "Programem tym interesuję się od bardzo dawna (stosowałem go do przeróbek zdjęć tj. wycinanie tła itp.), aczkolwiek zacząłem się nim zajmować i tworzyć jakieś ciekawsze projekty od stycznia 2020, kiedy zacząłem przerabiać losowe zdjęcia rodziny i znajomych. Aktualnie wiem jak zrobić podstawową obróbkę obrazu, skorygować go, oraz jak nałożyć filtry. Moim zdaniem jeszcze daleko mi do profesjonalisty, gdyż program ten posiada wiele zaawansowanych funkcji, jednak staram się uczyć ich stopniowo na nowych projektach, gdzie dorzucam coś nowego. Jak na razie wszystkie moje przeróbki zaskoczyły moich znajomych i rodzinę."
         },
         "illustrator": {
             "title": "Adobe Illustrator",
-            "description": "To jest moim zdaniem najlepszy program, z jakiego korzystałem. Ile wiewiórek narysowałem w nim tego na palcach zliczyć nie można. Jedyny taki program, który mnie nigdy nie zmęczy i przy którym mogę siedzieć non-stop. Potrafię rysować rysunki z konturami i bez nich, z gradientem i bez, oraz tak szczegółowe, że mi blue screena wywala. Umiem nakładać filtry na obrazki. Staram się używać także różnych pędzli malarskich, a także tworzyć swoje. W przyszłości chciałbym moje rysunki animować w After Effects i tworzyć scenki. Testowałem także program Inkscape. Na pewno program ten jest szybszy, lecz ma mniej intuicyjny interfejs."
+            "description": "To jest moim zdaniem najlepszy program, z jakiego korzystałem. Ile wiewiórek narysowałem w nim tego na palcach zliczyć nie można. Jedyny taki program, który mnie nigdy nie zmęczy i przy którym mogę siedzieć non-stop. Potrafię rysować rysunki z konturami i bez nich, z gradientem i bez, oraz tak szczegółowe, że mi pamięci brakuje w komputerze. Umiem nakładać filtry na obrazki. Staram się używać także różnych pędzli malarskich, a także tworzyć swoje. W przyszłości chciałbym moje rysunki animować w After Effects i tworzyć scenki. Testowałem także program Inkscape. Na pewno program ten jest szybszy, lecz ma mniej intuicyjny interfejs."
         },
         "html": {
             "title": "HTML 5",
-            "description": "Tak jak życie nie obejdzie się bez śmierci i podatków, tak programista webowy bez znajomości HTMLa. Nigdy nie korzystałem z wersji czwartej, oraz kilku z nowszych tagów (szczególnie tych do audio i wideo), lecz raczej można to szybko znaleźć w internecie i myślę, że gdy będę umieszczał film na stronie to sobie poradzę. Muszę także podszkolić się z korzystania z tagu @media."
+            "description": "Tak jak życie nie obejdzie się bez śmierci i podatków, tak programista webowy bez znajomości HTMLa. Nigdy nie korzystałem z wersji czwartej, oraz kilku z nowszych tagów (szczególnie tych do audio i wideo), lecz można wszystko szybko znaleźć w internecie i myślę, że gdy będę umieszczał film na stronie to sobie poradzę. Staram się w miarę możliwości korzystać nie tylko z divów, ale także z nowszych tagów HTMLa 5, takich jak: article, section, main, header itd. Chciałbym podszkolić się z korzystania z tagu @media."
         },
         "css": {
             "title": "CSS 3",
-            "description": "Zazwyczaj tworzenie strony rozpoczynam od dania dla każdego elementu na stronie atrybutu display na wartość flex. Znam dobrze flexboxa, transition i gradienty, wiem jaka jest różnica między display: none, a visibility: hidden. Umiem korzystać z atrybutu position bez większych zaskoczeń. Myśle, że dałbym sobie radę z takimi problemami jak stworzenie trójkąta, dymka czy rombu."
+            "description": "Zazwyczaj tworzenie strony rozpoczynam od dania dla każdego elementu na stronie atrybutu display na wartość flex. Znam dobrze flexboxa, transition i gradienty. Umiem korzystać z atrybutu position bez większych zaskoczeń. Dałbym sobie radę z takimi problemami jak stworzenie trójkąta, dymka czy rombu."
         },
         "javascript": {
             "title": "JavaScript",
-            "description": "Na początku totalnie olałem czystego JSa i zacząłem od razu korzystać z JQuery, natomiast wraz z kolejnymi wejściami nowszych standardów odkryłem, że biblioteka ta jest zbędna i zacząłem się uczyć czystego JavaScripta. Teraz już nie wiem czego w nim nie umiem. Jest to bardzo rozbudowany język, w którym cenię elastyczność i niską wrażliwość składniową, co daje mi poczucie wolności gdy w nim piszę. Umiem pracować na funkcjach asynchronicznych, tablicach, klasach i obiektach. Umiem uruchomić nim ivonę, czytać pliki File Readerem, łapać i reagować na błędy promisami. Jak nie potrafię wszystkiego recytować z pamięci to sprawdzam funkcją console.log bądź na MDN, czy StackOverflow. Wydaje mi się, że jestem na bieżąco ze standardem Ecma 2018."
+            "description": "Na początku totalnie zrezygnowałem z czystego JSa i zacząłem od razu korzystać z JQuery. Natomiast wraz z kolejnymi wejściami nowszych standardów odkryłem, że biblioteka ta jest zbędna i zacząłem się uczyć czystego JavaScripta. Teraz już nie wiem czego w nim nie umiem. Jest to bardzo rozbudowany język, w którym cenię elastyczność i niską wrażliwość składniową, co daje mi poczucie wolności gdy w nim piszę. Umiem pracować na funkcjach asynchronicznych, tablicach, klasach i obiektach. Umiem uruchomić nim ivonę, czytać pliki File Readerem, łapać i reagować na błędy promisami. Wydaje mi się, że jestem na bieżąco ze standardem Ecma 2018."
         },
         "typescript": {
             "title": "Typescript",
-            "description": "Traktuję go jak regorystycznego wujka JavaScripta, pomieszanego z C++ od którego wziął typy zmiennych. Uczę się go podczas nauki Angulara, w którym zrobiłem to portfolio. Jakbym robił w nim przed 2015 rokiem to pewnie byłbym zachwycony tymi dobrociami, które dostarczył, aczkolwiek teraz, kiedy w JavaScript jest praktycznie to samo, niezbyt widzę sens używania go poza tym frameworkiem. Niezbyt lubię precyzować typy zmiennych, czego nie lubiłem także robić w C++, jednak ten język jest do tego stworzony."
+            "description": "Traktuję go jak regorystycznego wujka JavaScripta, pomieszanego z C++ od którego wziął typy zmiennych. Uczę się go podczas nauki Angulara, w którym zrobiłem to portfolio. Jakbym zajmował się nim przed 2015 rokiem to pewnie byłbym zachwycony tymi dobrociami, które dostarczył, aczkolwiek teraz, kiedy w JavaScript jest praktycznie to samo, niezbyt widzę sens używania go poza tym frameworkiem. Niespecjalnie lubię precyzować typy zmiennych, czego nie lubiłem także robić w C++."
         },
         "php": {
             "title": "PHP",
-            "description": "Jest bardzo ciekawym i rozbudowanym językiem serwerowym, jednak samo to, że trzeba zmieniać język w którym się myśli skłoniło mnie do przejścia na node.jsa. Mam z nim wiele wspomnień, gdyż to był język w którym zaczynałem pisać pierwsze aplikacje webowe. Większość jego frameworków typu Laravel czy Symfony jest dla dużych i ciężkich projektów. Dodatkowo jedynymi bazami danych z nim w pełni kompatybilnych są bazy SQL. Ostatni raz pisałem w nim cokolwiek w 2018 roku, więc musiałbym sobie przypomnieć co nieco."
+            "description": "Jest bardzo ciekawym i rozbudowanym językiem serwerowym, jednak samo to, że trzeba zmieniać język w którym się myśli skłoniło mnie do przejścia na node.jsa. Mam z nim wiele wspomnień, gdyż to był język w którym zaczynałem pisać pierwsze aplikacje webowe. Większość jego frameworków typu Laravel czy Symfony jest dla dużych i ciężkich projektów. Dodatkowo prawdoodobnie jedynymi bazami danych z nim w pełni kompatybilnymi są bazy SQL. Myślę, że jeszcze wrócę do niego, ale pewnie nie za szybko."
         },
         "cpp": {
             "title": "C++",
@@ -217,7 +217,7 @@
         },
         "mongodb": {
             "title": "MongoDB",
-            "description": "Język ten jest najprzyjemniejszym językiem bazodanowym, z jakim miałem okazję się spotkać. Nie jest tak trudny do zabezpieczenia jak Firebase, ponieważ posiada możliwość podania IP własnego serwera jako zabezpieczenie przed intruzami, oraz nie jest tak niebezpieczny jak SQL. Nawiązanie połączenia i otrzymanie danych także nie należy do skomplikowanych rzeczy. Wspiera wiele platform i ma wiele wtyczek. Przy następnym projekcie chciałbym spróbować pluginu Mongoose dla Node.jsa."
+            "description": "Język ten jest najprzyjemniejszym językiem bazodanowym, z jakim miałem okazję się spotkać. Nie jest tak trudny do zabezpieczenia jak Firebase, ponieważ posiada możliwość podania IP własnego serwera jako zabezpieczenie przed intruzami, oraz nie jest tak niebezpieczny jak SQL. Nawiązanie połączenia i otrzymanie danych także nie należy do skomplikowanych rzeczy. Wspiera wiele platform i ma wiele wtyczek."
         },
         "firebase": {
             "title": "Firebase",
@@ -225,7 +225,7 @@
         },
         "nodejs": {
             "title": "Node.js",
-            "description": "Przesiadłem się na niego z Apache, gdy uznałem, że praca w PHP jest bez sensu. Podoba mi się sam pomysł pisania w Javascript po stronie serwera. Od razu zacząłem pisać wszystko w Express więc niezbyt się orientuję w czystym node.js. Umiem korzystać z wielu zależności, eksportować i importować moduły. Znam podstawowe paczki do budowania stron, jak multer, czy bcrypt oraz pracowałem na Next.js, który uważam za genialny dodatek bardzo ułatwiający obchodzenie się ze stroną, jej routingiem i konfiguracją webpacka."
+            "description": "Przesiadłem się na niego z Apache, gdy uznałem, że warto by poznać inne technologie niż PHP. Podoba mi się sam pomysł pisania w Javascript po stronie serwera. Od razu zacząłem pisać wszystko w Express więc niezbyt się orientuję w czystym node.js. Umiem korzystać z wielu zależności, eksportować i importować moduły. Znam podstawowe paczki do budowania stron, jak multer, czy bcrypt oraz pracowałem na Next.js, który uważam za genialny dodatek bardzo ułatwiający obchodzenie się ze stroną, jej routingiem i konfiguracją webpacka."
         },
         "react": {
             "title": "React",
@@ -233,15 +233,15 @@
         },
         "angular": {
             "title": "Angular",
-            "description": "Pierwszy raz z Angularem zetknąłem się robiąc to portfolio. Wiele rzeczy jest w nim uciążliwych, a króluje w nich to, że wymaga korzystania z templatów. Nie jest tak elastyczny jak React i wymaga pisania wszystkich funkcji w komponentach. Jak na razie znam kompletne podstawy i potrafię robić w nim jedynie strony typu wizytówka z podstawowym routingiem i wieloma językami korzystając z i18n. Nauczyłem się go głównie z kursu na Udemy, więc wiem o rzeczach, których jeszcze nie było mi dane samemu stworzyć i użyć, np. providers."
+            "description": "Pierwszy raz z Angularem zetknąłem się robiąc to portfolio. Jest on dla ludzi, którzy lubią rozwarstwiać strukturę aplikacji na wiele plików. Nie jest tak elastyczny jak React i wymaga pisania wszystkich funkcji w komponentach. Jak na razie znam kompletne podstawy i potrafię robić w nim jedynie strony typu wizytówka z podstawowym routingiem i wieloma językami korzystając z i18n. Nauczyłem się go głównie z kursu na Udemy."
         },
         "nextjs": {
             "title": "Next.js",
-            "description": "Postanowiłem, że napiszę o nim osobno, ponieważ jest on genialnym dodatkiem, bez którego trudno mi sobie na poważnie pomyśleć o dużej witrynie napisanej na node.js. Pomaga on w konfiguracji webpacka pod dodatki typu scss, czy babel (wystarczy zaimportować odpowiednią paczkę w pliku konfiguracji), oraz wprowadza do strony automatyczny routing, dzięki czemu wystarczy wsadzić plik JavaScripta do katalogu, aby stała się dostępna z poziomu przeglądarki. Dobrą rzeczą jest też plik konfiguracyjny _app.js, który zostaje uruchomiony przy wejściu na dowolną stronę, oraz _document.js, który pozwala na utworzenie własnego szkieletu bazowego strony. Naprawdę polecam każdemu, kto jeszcze o nim nie słyszał."
+            "description": "Postanowiłem, że napiszę o nim osobno, ponieważ jest on genialnym dodatkiem, ułatwiającym konfigurację strony. Pomaga on w konfiguracji webpacka pod dodatki typu scss, czy babel (wystarczy zaimportować odpowiednią paczkę w pliku konfiguracji), oraz wprowadza do strony automatyczny routing, dzięki czemu wystarczy wsadzić plik JavaScripta do katalogu, aby strona stała się dostępna z poziomu przeglądarki. Dobrą rzeczą jest też plik konfiguracyjny _app.js, który zostaje uruchomiony przy wejściu na dowolną stronę, oraz _document.js, który pozwala na utworzenie własnego szkieletu bazowego strony."
         },
         "jquery": {
             "title": "JQuery",
-            "description": "Biblioteka z którą spędziłem wiele lat i znam ją na wylot. Ratowała tyłki deweloperom stron przez wiele lat, kiedy czysty JavaScript jeszcze kulał. Dobrze systematyzuje pobieranie elementów z DOM, ma łatwe w użyciu funkcje, które są kompatybilne ze starszymi przeglądarkami. Rozwijając stronę z Apache i PHP raczej trudno sobie wyobrazić bez niej życia. React moim zdaniem ją pokrywa w 100% przy okazji daje ciekawsze efekty i zmniejsza ilość pisanego kodu, dlatego w miarę możliwości wolę iść w jego stronę. Z roku na rok biblioteka ta staje się coraz bardziej bezużyteczna, jednak mam do niej spory sentyment."
+            "description": "Biblioteka z którą spędziłem wiele lat i znam ją na wylot. Ratowała deweloperów stron przez wiele lat, kiedy czysty JavaScript jeszcze kulał. Dobrze systematyzuje pobieranie elementów z DOM, ma łatwe w użyciu funkcje, które są kompatybilne ze starszymi przeglądarkami. Rozwijając stronę z Apache i PHP raczej trudno sobie wyobrazić bez niej życia. React moim zdaniem ją pokrywa w 100% przy okazji daje ciekawsze efekty i zmniejsza ilość pisanego kodu, dlatego w miarę możliwości wolę iść w jego stronę. Z roku na rok biblioteka ta staje się coraz mniej użyteczna, jednak mam do niej spory sentyment."
         },
         "pug": {
             "title": "Pug",
@@ -256,39 +256,48 @@
             "description": "Używam go w większych projektach, jednak wykorzystuję go w identycznych celach jak LESSa. Nie widzę w nich większych różnic oprócz technologii na których zostały napisane."
         },
         "symfony": {
-            "title": "Symfony 2/3",
-            "description": "Był to pierwszy framework na którym robiłem swoje projekty. Był wtedy jeszcze w wersji 3. Nauczyłem się na nim funkcjonować w modelu MVC, niestety wtedy nie korzystałem zbytnio z DRY i kopiowałem kod jak popadło. Framework ten jest/był bardzo duży i w pełni synchroniczny. Dodatkowo opierał się o język PHP, z którym coraz mniej nowszych rzeczy jest kompatybilnych. Z tego co pamiętam był strasznie nieintuicyjny i trudny, jednak po przesiadce na Node.js nic mnie już nie zaskoczyło."
+            "title": "Symfony",
+            "description": "Był to pierwszy framework na którym robiłem swoje projekty. Był wtedy jeszcze w wersji 3. Nauczyłem się na nim funkcjonować w modelu MVC, niestety wtedy nie korzystałem zbytnio z DRY i kopiowałem kod jak popadło. Framework ten był bardzo duży i w pełni synchroniczny. Z tego co pamiętam był strasznie nieintuicyjny i trudny, jednak po przesiadce na Node.js nic mnie już nie zaskoczyło."
         },
         "sfml": {
             "title": "SFML",
-            "description": "Idealna biblioteka do rozpoczęcia nauki tworzenia gier. Od niej zacząłem i ciekawie mi się z niej pracowało. Czasami bywała tak nieintuicyjna, że 5 godzin zajęło mi, żeby spróbować użyć wskaźnika do pobrania obrazów z dysku. Niestety jest mało informacji w internecie o błędach, które mogą w niej wystąpić. Zrobiłem w niej jedną, piekielnie trudną grę z 3-ma poziomami jak na razie. Myślę, że kiedyś zajmę się tworzeniem innych gier w Uniity, bo bardzo mi się spodobało."
+            "description": "Idealna biblioteka do rozpoczęcia nauki tworzenia gier. Od niej zacząłem i ciekawie mi się z niej pracowało. Czasami bywała tak nieintuicyjna, że 5 godzin zajęło mi, żeby spróbować użyć wskaźnika do pobrania obrazów z dysku. Niestety jest zbyt mało informacji w internecie o błędach, które mogą w niej wystąpić. Zrobiłem w niej jedną grę z 3-ma poziomami jak na razie. Myślę, że kiedyś zajmę się tworzeniem innych gier w Uniity, bo bardzo mi się spodobało."
         },
         "flstudio": {
-            "title": "FL Studio"
+            "title": "FL Studio",
+			"description": "Umiem tworzyć podstawowe beaty i korzystać z wbudowanych instrumentów VST i narzędzi. Jeszcze się wszystkiego uczę, ale moje prace mnie bardzo zadowalają jak na razie. Ostatnio postanowiłem skorzystać z instrumentów zewnętrznych, a także nagrać wokal do podkładu. Na początku program ten był bardzo nieintuicyjny dla mnie, ale z biegiem czasu udało mi się go opanować."
         },
         "audacity": {
-            "title": "Audacity"
+            "title": "Audacity",
+			"description": "Z tego programu korzystałem do swoich pierwszych przeróbek i montaży wokalu. Robiłem w nim przeróbki z Alvinem i Wiewiórkami, które potem publikowałem. Lubie w nim nagrywać audio, ponieważ jest to o wiele łatwiejsze i bardziej intuicyjne niż w flstudio."
         },
         "sonyvegas": {
-            "title": "Sony Vegas"
+            "title": "Sony Vegas",
+			"description": "Od tego programu zaczynałem montaż filmów. Umiem z nigo podstawy, takie jak cięcia, przejścia, wejścia, napisy. Montowałem w nim filmiki potrzebne często do szkoły. Nie mam niesamowitego procesora do renderu większych rzeczy, jednak udało mi sie w nim zmontować swoje filmy z wycieczek na Islandii."
         },
         "hitfilm": {
-            "title": "Hitfilm"
+            "title": "Hitfilm",
+			"description": "Montowałem w nim filmy niewiele razy i nie mam niewiadomo jakiego doświadczenia z nim związanego. Myślę, że ciekawszym programem jest Sony Vegas, jednak Hitfilm jest programem w pełni darmowym i zawsze go polecam ludziom, którzy nie mają większego doświadczenia w montażu."
         },
         "word": {
-            "title": "Word"
+            "title": "Word",
+			"description": "Z programu tego korzystam od kiedy pamiętam. Wiem o nim wiele (nie jestem z osób, które używają enterów, żeby dostać się na spód strony). Umiem tworzyć dokumenty w stylu formalnym i nieformalnym, oraz te, które mają mieć wygląd typowo estetyczny."
         },
         "excel": {
-            "title": "Excel"
+            "title": "Excel",
+			"description": "Z arkusza kalkulacyjnego korzystałem na maturze i na studiach. Umiem tworzyć wykresy, używać różnych funkcji do działania na danych, warunkowych i logicznych. Większość zadań jest mi niestraszna, jednak znam osoby które potrafią znaleźć wyjście z bardziej złożonych problemów, z którymi sobie nie radzę. Przy podstawowych i tych bardziej zaawansowanych obliczeniach na pewno dam sobię radę."
         },
         "powerpoint": {
-            "title": "Powerpoint"
+            "title": "Powerpoint",
+			"description": "Większość prezentacji tworzonych przeze mnie była właśnie w powerponcie. Nawet kiedyś stworzyłem w nim grę do szkoły. Nie muszę sie o nim zbytnio rozpisywać - znam znaczną większość możliwości tego programu."
         },
         "access": {
-            "title": "Access"
+            "title": "Access",
+			"description": "Obsługi tej bazy danych uczyłem się na maturę. Z tego co pamiętam to te zadania sprawiały mi najmniejszą trudność zawsze. Wiem z niej to wszystko co umiałbym zrobić w SQLu."
         },
         "outlook": {
-            "title": "Outlook"
+            "title": "Outlook",
+			"description": "Z tego menedżera poczty korzystałem na islandii. Odbierałem w nim pocztę i oznaczałem zadania w kalendarzu praktycznie codziennie."
         },
         "polish": {
             "title": "Język polski",
@@ -296,22 +305,22 @@
         },
         "english": {
             "title": "Język angielski",
-            "description": "Operuję w nim dobrze zarówno w mowie jak i w piśmie – na pewno na tyle wystarczająco, że znalazłem pracę jako recepcjonista na Islandii. Zdałem na certyfikat ACERT-B2 na studiach, jednak do tej pory go nie otrzymałem do ręki. Sądzę jednak, że jestem gdzieś w okolicach C1 – rozumiem co do słowa, co mówią w filmach na Youtube bez napisów. Z pełnometrażowymi filmami jest tylko trochę gorzej (czytam napisy tylko, kiedy chcę zrozumieć treść w 100%, a nie 80). Jeżeli chodzi o rozmowę to zbytnio nie ma tu problemów, mówię płynne i żywo, czasem zapomnę słowa. Na egzaminie ustnym, na certyfikat miałem 18/20 punktów."
+            "description": "Operuję w nim dobrze zarówno w mowie jak i w piśmie – na pewno na tyle wystarczająco, że znalazłem pracę jako recepcjonista na Islandii. Zdałem na certyfikat ACERT-B2 na studiach, jednak do tej pory go nie otrzymałem do ręki. Sądzę jednak, że jestem gdzieś w okolicach C1 – rozumiem co do słowa, co mówią w filmach na Youtube bez napisów. Z pełnometrażowymi filmami jest tylko trochę gorzej (czytam napisy tylko, kiedy chcę zrozumieć treść w 100%, a nie 80). Jeżeli chodzi o rozmowę to zbytnio nie mam z nią problemów, staram się mówić płynne i żywo, czasem zapomnę słowa. Na egzaminie ustnym, na certyfikat miałem 18/20 punktów."
         },
         "german": {
             "title": "Język niemiecki",
-            "description": "Tutaj tylko podstawy i bez fajerwerków. Rozmawiając z Niemcami używam podstawowych słów, jednak staram się robić to poprawnie. Jak na razie nigdy nie miałem problemów z prostą rozmową, kiedy rozmówca stawa się mówić powoli i powtarzać co powiedział. Umiem to czego nauczyłem się w gimnazjum i liceum."
+            "description": "Tutaj znam tylko podstawy. Rozmawiając z Niemcami używam podstawowych słów, jednak staram się robić to poprawnie. Jak na razie nigdy nie miałem problemów z prostą rozmową, kiedy rozmówcy starali się mówić powoli i powtarzać co powiedzieli. Umiem to czego nauczyłem się w gimnazjum i liceum."
         },
         "russian": {
             "title": "Język rosyjski",
-            "description": "Tego języka uczę się dla frajdy. Jest na tyle podobny do polskiego, że słowa łatwo wchodzą do głowy. Myślę, że sam język znam w podobnym stopniu co niemiecki. Mam znajomych z Rosji, lecz najczęściej rozmawiamy po angielsku. Umiem powoli czytać cyrylicę."
+            "description": "Tego języka uczę się dla zabawy. Jest na tyle podobny do polskiego, że słowa łatwo wchodzą do głowy. Myślę, że sam język znam w podobnym stopniu co niemiecki. Mam znajomych z Rosji, lecz najczęściej rozmawiamy po angielsku. Umiem powoli czytać cyrylicę."
         }
     },
     "experience": {
         "menu": {
             "title": "Doświadczenie",
             "subtitle": "Tutaj można zobaczyć szkoły w których się uczę oraz przebyte staże"
-        },
+        }, 
         "schools": {
             "main_title": "Szkoły do których uczęszczam lub jestem ich absolwentem", 
             "lo3": {
@@ -320,7 +329,7 @@
             },
             "pp": {
                 "title": "Politechnika Poznańska wydział Informatyki i Telekomunikacji",
-                "text": "Jestem już prawie na trzecim roku studiów inżynierskich. Studia te stanowią dla mnie jedynie rozszerzenie wiedzy informatycznej i na razie traktuję je jako ciekawostkę. Wszystkich najpotrzebniejszych rzeczy uczę się sam. Wyniosłem z nich wiedzę jak działać z asemblerem, linuxem, mikroprocesorami, itd."
+                "text": "Jestem już prawie na trzecim roku studiów inżynierskich. Studia te stanowią dla mnie jedynie rozszerzenie wiedzy informatycznej i na razie traktuję je jako ciekawostkę. Wszystkich najpotrzebniejszych rzeczy uczę się sam. Wyniosłem stąd wiedzę jak działać z asemblerem, linuxem, mikroprocesorami, itd."
             }
         },
         "jobs": {

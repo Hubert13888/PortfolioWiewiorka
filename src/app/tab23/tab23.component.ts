@@ -10,7 +10,7 @@ export class Tab23Component implements OnInit {
 
   public type = 'large';
   public urls = {
-    theSquirrelDragon: [],
+    theSquirrelDragon: ['https://github.com/Hubert13888/TSD-some-components'],
     blackrats_second: ['https://bitbucket.org/unexpectedsyntaxerror/blackrats/src/master/'],
     wspoldzielnia: [],
     Blackrats_first: ['https://github.com/Hubert13888/BlackratsSymfony']

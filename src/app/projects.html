@@ -1,16 +1,18 @@
 <div id="background">
     <div id="textbar">
-        <div class="tab_title" [ngSwitch]="type">
-            <h1 *ngSwitchCase="'large'">{{ 'projects.menu.tabs.third' | translate }}</h1>
-            <h1 *ngSwitchCase="'medium'">{{ 'projects.menu.tabs.second' | translate }}</h1>
-            <h1 *ngSwitchCase="'small'">{{ 'projects.menu.tabs.first' | translate }}</h1>
-        </div>
-
-        <div class="group_description tab_subtitle" [ngSwitch]="type">
-            <subhead *ngSwitchCase="'large'">{{ 'projects.big_title' | translate }}</subhead>
-            <subhead *ngSwitchCase="'medium'">{{ 'projects.medium_title' | translate }}</subhead>
-            <subhead *ngSwitchCase="'small'">{{ 'projects.small_title' | translate }}</subhead>
-        </div> 
+        <header>
+            <div class="tab_title" [ngSwitch]="type">
+                <h1 *ngSwitchCase="'large'">{{ 'projects.menu.tabs.third' | translate }}</h1>
+                <h1 *ngSwitchCase="'medium'">{{ 'projects.menu.tabs.second' | translate }}</h1>
+                <h1 *ngSwitchCase="'small'">{{ 'projects.menu.tabs.first' | translate }}</h1>
+            </div>
+    
+            <div class="group_description tab_subtitle" [ngSwitch]="type">
+                <p *ngSwitchCase="'large'">{{ 'projects.big_title' | translate }}</p>
+                <p *ngSwitchCase="'medium'">{{ 'projects.medium_title' | translate }}</p>
+                <p *ngSwitchCase="'small'">{{ 'projects.small_title' | translate }}</p>
+            </div> 
+        </header>
 
         <div class="group" *ngFor='let project of projects'>
             <h2 class="group_title">{{ 'projects.' + project +'.title' | translate }}</h2>

@@ -24,6 +24,9 @@ const skills = [
   'pug', 'less', 'sass',
   'sfml',
   'symfony',
+  'flstudio', 'audacity',
+  'sonyvegas', 'hitfilm',
+  'word', 'excel', 'access', 'powerpoint', 'outlook',
   'polish', 'english', 'german', 'russian'
 ];
 
