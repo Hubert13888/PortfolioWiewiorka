@@ -25,32 +25,41 @@
         padding-top: 5vh;
         background-color: #ddd;
         color: #222;
+
         .textbar_about_me {
             max-width: 100%;
             padding: 5vw 10vh;
             flex-direction: column;
             h1 {
-                padding-bottom: 5vh;
-                font-size: 5vh !important;
+                padding-bottom: 3vh;
+                font-size: 2.5vw !important;
                 font-weight: bold;
             }
             
             h2 {
-                font-size: 4vh;
+                font-size: 2vw;
                 font-weight: bold;
             }
             
             p {
-                font-size: 20px;
-                margin-bottom: 5vh;
+                font-size: 1.5vw;
+                margin-bottom: 5vw;
+                padding: 0 5vw;
             }
             .textbar_about_me_org1 {
                 border-bottom: 3px solid #EDB915;
                 padding-bottom: 10vh;
+                margin-top: 10vh;
             }
             .textbar_about_me_org2 {
                 flex-direction: column;
-                padding: 5vw;
+                max-width: 50%;
+                height: 100%;
+                justify-content: center;
+                align-items: center;
+            }
+            .textbar_about_me_org3 {
+                flex-direction: column; 
             }
             h1 {
                 font-size: 25px;
@@ -59,22 +68,17 @@
         }
     }
     #my_photo {
-        min-width: 20vw;
-        max-width: 20vw;
-        max-height: 100vh;
-
+        width: 20vw;
+        margin-right: 5vw;
     }
     #picture_1 {
-        max-width: 80%;
-        margin-bottom: -10vh;
+        width: 40vw;
     }
     #picture_2 {
-        max-width: 125%;
-        margin-bottom: -10vh;
+        width: 70vw;
     }
     #picture_3{
-        min-height: 80vh !important;
-        max-height: 100vh !important;
-        margin-top: 10vh;
+        width: 30vw;
+        margin-right: 2vw;
     }
 }
