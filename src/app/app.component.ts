@@ -23,6 +23,12 @@ export class AppComponent {
   };
 
   constructor(private translate: TranslateService) {
+    const ua = navigator.userAgent;
+
+    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini|Mobile|mobile|CriOS/i.test(ua)) {
+      alert('Przepraszam, ale ta strona nie ma na razie wersji mobilnej. Mogą wystąpić problemy z rozdzielczością.');
+    }
+
     translate.addLangs(['en', 'pl']);
     const lang = getCookie('lang');
     if (lang === '') {

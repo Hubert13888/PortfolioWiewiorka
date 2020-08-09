@@ -10,7 +10,9 @@ export class Tab22Component implements OnInit {
 
   public type = 'medium';
   public urls = {
-    theImpossibleGame: ['https://github.com/Hubert13888/TheImpossibleGame'],
+    theImpossibleGame: ['https://github.com/Hubert13888/TheImpossibleGame',
+                        'https://drive.google.com/file/d/11n1boJ1gZx6BumzlbsrL49Y8hjFGNif_/view?usp=sharing'
+                      ],
     nextjsTemplates: [
       'https://bitbucket.org/Hubert138881/nextjs-template-simple/src/master/',
       'https://bitbucket.org/Hubert138881/nextjs-template-advanced/src/master/'

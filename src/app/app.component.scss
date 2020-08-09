@@ -117,19 +117,20 @@ nav {
 
       .salami_container {
         position: absolute;
-        right: 10vw;
+        margin-left: 20px;
+        left: 75vw;
         top: -5vh;
-        width: 30vh;
+        width: 15vw;
         height: 30vh;
         opacity: 70%;
         #first_sal {
           top: 10vh;
-          left: 20px;
+          left: 2vw;
           transform: rotate(80deg);
         }
         #second_sal {
           bottom: 0;
-          left: 10px;
+          left: 2vw;
         }
         #third_sal {
           right: 10px;
@@ -141,23 +142,31 @@ nav {
           height: 7vh;
         }
       }
-
-      #slideBar_title {
-        font-size: $h1_font_size;
-        transform: translateX($h1_left_padding);
-        transition: transform 0.1s ease-in;
-      } 
-      #slideBar_subtitle {
-        margin-top: 2vh;
-        font-size: $h1_font_size / 2.5;
-        transform: translateX($h1_left_padding * 4);
-        transition: transform 0.1s ease-in;
-      }
-      #slideBar_title, #slideBar_subtitle {
-        background-color: rgba(192, 87, 70, 0.6);
-        border-radius: 5%;
-        padding: 1vh 2vw;
-        color: #ddd;
+      .slidebar_title_wrapper {
+        height: 100%;
+        flex-direction: column;
+        #slideBar_title {
+          max-width: 60vw;
+          position: relative;
+          z-index: 3;
+          font-size: $h1_font_size;
+          transform: translateX($h1_left_padding);
+          transition: transform 0.1s ease-in;
+        } 
+        #slideBar_subtitle {
+          position: relative;
+          z-index: 3;
+          margin-top: 2vh;
+          font-size: $h1_font_size / 2.5;
+          transform: translateX($h1_left_padding * 2);
+          transition: transform 0.1s ease-in;
+        }
+        #slideBar_title, #slideBar_subtitle {
+          background-color: rgba(192, 87, 70, 0.6);
+          border-radius: 5%;
+          padding: 1vh 2vw;
+          color: #ddd;
+        }
       }
     }
     
@@ -286,4 +295,10 @@ main {
   justify-content: start;
   align-items: start;
   width: 100%;
+}
+
+@media only screen and (max-width: 200px) {
+  .salami_container {
+    display: none;
+  } 
 }

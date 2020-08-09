@@ -5,6 +5,7 @@
             <div class="group_row">
                 <p>{{ 'skills.' + item + '.description' | translate }}</p>
             </div>
+            <a *ngFor="let link of skills[item]" [href]="link" target="_blank">{{link}}</a>
             <app-slider [key]="item" *ngIf="picMap[item]"></app-slider>
         </div>
     </div>

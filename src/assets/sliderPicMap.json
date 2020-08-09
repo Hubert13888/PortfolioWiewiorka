@@ -25,18 +25,23 @@
         "udp3.png",
         "udp4.png"
     ],
+    "theSquirrelDragon": [
+        "sqrl.png",
+        "sqrl2.png",
+        "sqrl3.png"
+    ],
     "photoshop": [
-        "wilk.png",
-        "panda.png"
+        "panda.png",
+        "wilk.png"
     ],
     "illustrator": [
         "bowling.png",
         "smok.png",
         "wiew_niespodz.png"
     ],
-    "theSquirrelDragon": [
-        "sqrl.png",
-        "sqrl2.png",
-        "sqrl3.png"
+    "flstudio": [
+        "beat2.png",
+        "beat3.png",
+        "beat4.png"
     ]
 }

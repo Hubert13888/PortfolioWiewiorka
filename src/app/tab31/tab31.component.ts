@@ -13,6 +13,9 @@ export class Tab31Component implements OnInit, OnDestroy {
   public item: string;
   public loadSite: boolean = true;
   public picMap = picMap;
+  skills = {
+    flstudio: ['https://drive.google.com/drive/folders/1PZMZfpAiW4CjeZUVKL-VkhsPUkEONnnA?usp=sharing']
+  }
 
   constructor(private route: ActivatedRoute) { }
 
