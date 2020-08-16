@@ -1,18 +1,18 @@
 <div id="background">
+    <div class="wallpaper"></div>
     <div id="textbar">
         <div class="textbar_about_me">
-            <h1>{{ 'main.title.text' | translate }}</h1>
-            <div class="textbar_about_me_org1 m">
-                <img src="assets/illustrations/me_outline.png" id="my_photo" alt="">
+            <div class="textbar_about_me_org1">
                 <div class="textbar_about_me_org2"> 
+                    <h1>{{ 'main.title.text' | translate }}</h1>
                     <p>{{ 'main.title.subtext1' | translate }} {{birthDate}} {{ 'main.title.subtext2' | translate }}</p>
                 </div> 
             </div>
         </div>
-        <div class="textbar_about_me" id="new_things">
+        <div class="textbar_para">
             <h2>{{ 'main.paragraphs.first.title' | translate }}</h2>
             <div class="textbar_about_me_org1">
-                <div class="textbar_about_me_org3">
+                <div class="textbar_about_me_org2">
                     <p>
                         {{ 'main.paragraphs.first.text' | translate }}
                     </p>
@@ -20,10 +20,10 @@
                 </div>
             </div>
         </div>
-        <div class="textbar_about_me" id="new_things">
+        <div class="textbar_para">
             <h2>{{ 'main.paragraphs.second.title' | translate }}</h2>
             <div class="textbar_about_me_org1">
-                <div class="textbar_about_me_org3">
+                <div class="textbar_about_me_org2">
                     <p>
                         {{ 'main.paragraphs.second.text' | translate }}
                     </p>
@@ -32,16 +32,16 @@
             </div>
         </div>
 
-        <div class="textbar_about_me" id="new_things">
+        <div class="textbar_para">
             <h2>{{ 'main.paragraphs.third.title' | translate }}</h2>
             <div class="textbar_about_me_org1">
                 <img src="assets/illustrations/3_fin.png" id="picture_3" alt="">
-                <div class="textbar_about_me_org2">
+                <div class="textbar_about_me_org2" id="horiz">
                     <p>
                         {{ 'main.paragraphs.third.text' | translate }}
                     </p>
-                </div>
+                </div> 
             </div>
         </div>
     </div>
-</div> 
+</div>  

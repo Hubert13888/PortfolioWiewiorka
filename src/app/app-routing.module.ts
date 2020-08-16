@@ -17,7 +17,8 @@ const routes: Routes = [
   {path: 'projects/large', component: Tab23Component},
   {path: 'skills', component: Tab3Component},
   {path: 'skills/:item', component: Tab31Component},
-  {path: 'experience', component: Tab4Component}
+  {path: 'experience', component: Tab4Component},
+  {path: '**', redirectTo: '/'}
 ];
 
 @NgModule({

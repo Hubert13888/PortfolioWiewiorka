@@ -16,63 +16,121 @@
 }
 
 #background {
-    background-color: #474749;
     width: 98vw;
+    .wallpaper {
+        
+        background: url('/assets/backgrounds/background3.jpg');
+        background-size: contain;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        height: 100vh;
+        width: 100vw;
+    }
     #textbar {
         flex-direction: column;
         width: 75vw; 
-        margin: 10vh 15vh 0 0;
+        margin: 5vh 15vh 0 0;
         padding-top: 5vh;
-        background-color: #ddd;
-        color: #222;
+        background-color: rgba(221, 221, 221, 0.2);
+        color: #222; 
 
         .textbar_about_me {
-            max-width: 100%;
-            padding: 5vw 10vh;
-            flex-direction: column;
-            h1 {
-                padding-bottom: 3vh;
-                font-weight: bold;
+            background: url('/assets/illustrations/me_outline.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 90vh;
+            align-items: flex-end;
+            margin-top: 5vh;
+
+            .textbar_about_me_org1 {
+                //border-bottom: 3px solid #EDB915;
+                position: relative;
+                border-radius: 2vw;
+            }
+            .textbar_about_me_org2 {
+                right: 5vw;
+                flex-direction: column;
+                height: 100%;
             }
             
-            h2 {
-                font-weight: bold;
+            h1 {
+                font-family: spind;
+                font-size: 8vw;
+                text-align: right;
+
+                align-self: flex-end;
+                margin-right: 8vw;
+                margin-bottom: 4vw;
+                padding: 0;
+
+                color: #ddd;
+                //background-color: rgb(0, 0, 0, 0.05);
+                border-radius: 30%;
+                transform: rotate(20deg);
             }
             
             p {
                 margin-bottom: 5vw;
-                padding: 0 5vw;
+                font-size: 1.5vw;
+                padding: 2vw 2vw;
+                border: #3E657C dashed 0.4vw;
+                background-color: rgba(156, 192, 194, 0.8);
+                text-align: center;
+                border-radius: 5vw;
+                width: 50vw;
+                margin-left: 15vw;
+                margin-bottom: 11vw;
+                color: #fff;
             }
-            .textbar_about_me_org1 {
-                border-bottom: 3px solid #EDB915;
-                padding-bottom: 10vh;
-                margin-top: 10vh;
+            img { 
+                border-radius: 20%;
+                padding: 5vw;
             }
+        }
+        .textbar_para {
+            background-color: rgba(156, 192, 194, 0.6);
+            color: #333;
+            margin-top: 10vh;
+            padding: 10vh 5vw;
+            flex-direction: column;
+
+            h2 {
+                font-size: 3vw;
+                color: #fff;
+            }
+            p {
+                font-size: 1.5vw;
+                text-align: center;
+                padding: 3vh 3vw;
+                border: rgb(244, 0, 118) dashed 0.4vw;
+                border-radius: 30%;
+                color: #2C2A4A;
+                margin: 5vh 0 ;
+            }
+            img {
+                border-radius: 5%;
+            }
+            #horiz {
+                max-width: 50%;
+            }
+
             .textbar_about_me_org2 {
                 flex-direction: column;
-                max-width: 50%;
-                height: 100%;
-                justify-content: center;
-                align-items: center;
-            }
-            .textbar_about_me_org3 {
-                flex-direction: column; 
-            }
-            h1 {
-                font-size: 25px;
-                margin-bottom: 5vh;
             }
         }
     }
     #my_photo {
-        width: 20vw;
-        margin-right: 5vw;
+        z-index: -1;
+        height: 80vh;
     }
     #picture_1 {
         width: 40vw;
     }
     #picture_2 {
-        width: 70vw;
+        width: 50vw;
     }
     #picture_3{
         width: 30vw;
@@ -81,16 +139,18 @@
 }
 
 @media screen and (max-width: 1000px) {
+    .textbar_about_me {
+        p {
+            margin-bottom: 20vw !important;
+        }
+        h1 {
+            margin-bottom: 8vw !important;
+        }
+    }
     .textbar_about_me_org2{
         max-width: 100% !important;
     }
     .textbar_about_me_org1{
         flex-direction: column-reverse; 
-    }
-    .m {
-        flex-direction: column;
-        img {
-            margin-bottom: 10vh;
-        }
     }
 }
