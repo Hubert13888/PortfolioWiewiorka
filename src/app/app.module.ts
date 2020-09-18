@@ -1,4 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
+import { HashLocationStrategy, LocationStrategy  } from '@angular/common';
 import { NgModule } from '@angular/core';
 
 import { AppRoutingModule, RoutingComponents } from './app-routing.module';
@@ -45,7 +46,9 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     }),
     FontAwesomeModule
   ],
-  providers: [],
+  providers: [
+    {provide : LocationStrategy , useClass: HashLocationStrategy}
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

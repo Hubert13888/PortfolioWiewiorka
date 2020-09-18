@@ -1,32 +1,17 @@
-.slideBar_wrapper {
-    transform: none;
-}
-.slideBar_close_active {
-    transform: translateY(-88%);
-}
-
-#footer_main {
+#footbar_main {
     transform: none;
 }
 .foot_close_slide_animaion {
-    transform: translateX(-100%) !important;
+    transform: translateX(10vw) !important;
 }
 .foot_close_rotate_animaion {
-    transform: rotate(-720deg);
+    transform: rotate(-540deg);
 }
 
 #background {
-    width: 98vw;
     .wallpaper {
-        
         background: url('/assets/backgrounds/background3.jpg');
-        background-size: contain;
-        position: fixed;
-        top: 0;
-        left: 0;
-        z-index: -1;
-        height: 100vh;
-        width: 100vw;
+        filter:invert(100%) blur(5px) brightness(60%) ;
     }
     #textbar {
         flex-direction: column;
@@ -41,7 +26,6 @@
             background-size: contain;
             background-repeat: no-repeat;
             width: 100%;
-            height: 90vh;
             align-items: flex-end;
             margin-top: 5vh;
 

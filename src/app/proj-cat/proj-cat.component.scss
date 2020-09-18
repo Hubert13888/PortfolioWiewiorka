@@ -1,15 +1,16 @@
 
 .item_wrapper {
     position: relative;
+    z-index: 5;
     width: 12vw; 
     height: 12vw;
     min-width: 100px;
     min-height: 100px;
     border: #3E657C 5px solid;
     border-radius: 10%; 
+    overflow: hidden;
     cursor: pointer;
     text-align: center;
-    overflow: hidden;
     .item_info_wrapper {
         position: absolute;
         width: inherit; 

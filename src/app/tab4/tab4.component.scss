@@ -1,11 +1,9 @@
 #background {
-    background: none;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: #484A47;
-    padding-top: 15vh;
-    width: 98vw;
+    padding-top: 10vh;
+    .wallpaper {
+        background: url('/assets/backgrounds/background3.jpg');
+        filter: invert(75%);
+    }
     #textbar {
         flex-direction: column;
         width: 75vw;

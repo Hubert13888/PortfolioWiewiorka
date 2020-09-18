@@ -3,7 +3,7 @@ import { TranslateService } from '@ngx-translate/core';
 import { environment } from './../environments/environment';
 import { deleteCookie, getCookie, setCookie } from '../assets/scripts/cookies';
 import { faHome, faPizzaSlice, faEnvelope} from '@fortawesome/free-solid-svg-icons';
-import { faFacebook, faGithub, faBitbucket } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook, faGithub, faBitbucket, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 @Component({
   encapsulation: ViewEncapsulation.None,
@@ -13,13 +13,15 @@ import { faFacebook, faGithub, faBitbucket } from '@fortawesome/free-brands-svg-
 })
 export class AppComponent {
   title = 'Portfolio';
+  selectedLang = 'pl';
   fonts = {
     faHome,
     faPizzaSlice,
     faFacebook,
     faGithub,
     faBitbucket,
-    faEnvelope
+    faEnvelope,
+    faLinkedin
   };
 
   constructor(private translate: TranslateService) {
@@ -34,17 +36,18 @@ export class AppComponent {
     if (lang === '') {
       translate.use(environment.lang);
       setCookie('lang', environment.lang, 30);
+      this.selectedLang = environment.lang;
     }
     else {
       translate.use(lang);
+      this.selectedLang = lang;
     }
   }
 
   useLanguage(language: any) {
-    alert("I'm very sorry, but this translation is currently unavailable :(");
-    /*
+    console.log(language);
     setCookie('lang', language, 30);
-    this.translate.use(language);*/ 
+    this.translate.use(language);
   }
 
   mail_show() {
@@ -60,9 +63,9 @@ export class AppComponent {
   }
 
   foot_toggle() {
-    document.getElementById('footer_close')
+    document.getElementById('footbar_close')
       .classList.toggle('foot_close_rotate_animaion');
-    document.getElementById('footer_main')
+    document.getElementsByClassName('footbar')[0]
       .classList.toggle('foot_close_slide_animaion');
   }
   slideBar_close_active() {

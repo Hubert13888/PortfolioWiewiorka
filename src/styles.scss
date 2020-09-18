@@ -57,8 +57,9 @@ header {
         border-bottom: #E4B311 2px solid;
     }
 }
+
 .slideBar_wrapper {
-    transform: translateY(-88%);
+    transform: translateY(-95%);
 }
 .slideBar_close_active {
     transform: none;
@@ -80,7 +81,7 @@ p {
     font-family: 'Lato', sans-serif;
 }
 
-#footer_main {
+#footbar_main {
     transform: translateX(-100%);
 }
 .foot_close_slide_animaion {
@@ -88,6 +89,17 @@ p {
 }
 .foot_close_rotate_animaion {
     transform: rotate(720deg);
+}
+
+.wallpaper {
+    background-size: cover !important;
+    pointer-events: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    height: 100vh;
+    width: 100vw;
 }
 
 @font-face {

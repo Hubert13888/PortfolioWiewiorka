@@ -1,8 +1,340 @@
 {
-    "projects" : {
-        "big_title" : "W tej sekcji prezentuję projekty największe, takie które miały wyjść do publiki bądź posiadają inne znaczenie",
-        "theSquirrelDragon" : {
-            "title": "Kryptonim: SmoczaWiewióra"
+   "general":{
+      "beginning_date":"date",
+      "technologies":"technologies",
+      "menu":{
+         "tab2":"Projects",
+         "tab3":"Skills",
+         "tab4":"Experience"
+      },
+      "slider":{
+         "title":"The best portfolio is honest...",
+         "subtitle":"...like this one will be forever"
+      },
+      "footer":{
+         "title":"Find me on:"
+      }
+   },
+   "main":{
+      "title":{
+         "text":"Hello",
+         "subtext1":"I am Hubert Siwczyński, I am ",
+         "subtext2":" years old and I'm interested in IT ever since I can remember. \nIn this portfolio I would like to show you who I really am as well as the things I am interested in."
+      },
+      "paragraphs":{
+         "first":{
+            "title":"I love to make new things",
+            "text":"Until now every single new project, which I created had something special. I always take care of the creativity and I make things I do eye-catching. I like to take care of details, though I do it always after finishing up my main work"
+         },
+         "second":{
+            "title":"I try different thing and ways",
+            "text":"In my life I want to develop many skills and follow different ways of dealing with problems. I am not only a wabsite creator but also try to fill up my other IT hobbies like: creating games, desingning, artworking, music composing or video editing. I have always been up to bigger things"
+         },
+         "third":{
+            "title":"Be no other person than yourself",
+            "text":"I am a quite stable person, who is interested in creative things as well as those, which can help me develop. I like to meet new, sensible friends as well as I am brave to new things. The thing you can say about me is that I am totally honest. There cannot be too stuffy and seriously around me\nWhen weekend comes, I like to go to sleep at 3AM and wake up until 11AM:)"
+         }
+      }
+   },
+   "projects":{
+      "big_title":"In this section I am chasing to show my biggest projects, which were made for greater audience or they have some secret meaning",
+      "medium_title":"Here you can find projects, which are neither too small nor extra big",
+      "small_title":"Here are small things which I was using to test technologies or to learn language more",
+      "categories":{
+         "large":"Big",
+         "medium":"Medium",
+         "small":"Small"
+      },
+      "menu":{
+         "title":"Projects",
+         "subtitle":"There, I will list the projects, which I created or which I took part in",
+         "tabs":{
+            "first":"Minor projects",
+            "second":"Average",
+            "third":"Major projects"
+         }
+      },
+      "theSquirrelDragon":{
+         "title":"Codename: TheSquirreldragon",
+         "date":"November 2019",
+         "technologies":"React, Sass, Node.js, Next.js, MongoDB",
+         "description":"At this point, this project is one of my priorities. Using NextJS with the MongoDB database I would like to create a large-scale project. It will be something like a hybrid of Facebook and another well-known portal. Right now, I would not like to reveal too many details, because I have high hopes for this project. In contrast to Blackrats, this idea can be developed in one person but I'd really not want to make it alone. These days this project is half-made and waits for a crew ready to help me. The alpha version should occur in mid-2021, but I do not promise."
+      },
+      "blackrats_second":{
+         "title":"Blackrats - second and third try",
+         "date":"2018",
+         "technologies":"Pug (then React), Node.js, Next.js, MongoDB",
+         "description":"To these versions of this project we have joined in 2 persons with my Russian friend Alex. Unfortunately, the world is a cruel and a big time difference is between us, which made it too difficult to cooperate on the project, so we both felt that there was no point in going on to continue. At this point, for the first time I experienced the NodeJS and I loved it. We got to same spot as in the first version, but this time, even after a long time I can find myself in the code I wrote and I would be able to continue it at any point."
+      },
+      "wspoldzielnia":{
+         "title":"Współdzielnia",
+         "date":"2017",
+         "technologies":"HTML, CSS, JQuery, PHP, Symfony, Firebase",
+         "description":"The project started during writing the first version of the Blackrats in 2017. Being under the contract I wrote together with my friend from high school a big project for the customer from Tarnów Podgórny. I wrote the page (then I did not know that the Symfony was not a good framework for online shops). After some adventures I considered this project to be not worth my time and I resigned - I decided to better prepare myself for the upcoming Matura exam."
+      },
+      "Blackrats_first":{
+         "title":"Blackrats - First version",
+         "date":"2016",
+         "technologies":"HTML, CSS, JQuery, PHP, Symfony, SQL",
+         "description":"The very first version of the Blackrats project started in 2016, which I developed alone. It is a very interesting idea that I may retry. The project scheme written using Symfony has a functioning login and registration panels, as well as the personalize profile page. I gave up because the framework itself was a big one, it required great knowledge and 5 people to cooperate."
+      },
+      "OS_Symulator":{
+         "title":"Operating System Simulator",
+         "date":"November 2019",
+         "technologies":"C++",
+         "description":"This project was written in C++ to pass one of my studies subject: Operating Systems. It was supposed to simulate a real operating system. Thanks to the determination of two people, our team did not resigned after a month. We split up on deadline. The project was written in 7 people and each of us had to prepare one of the control modules. I had to create the assembler's interpreter. There were also: CPU, Processes, Locks, Disk, Interface and RAM. In the project we are able to work on processes and programs, but the i-node system is not running properly, which has been the main cause of the team's disintegration."
+      },
+      "assembler":{
+         "title":"Assembler's Interpreter",
+         "date":"March 2020",
+         "technologies":"C++",
+         "description":"This is a project made for an individual Operating Systems subject passing after tearing out my team on the first group attempt. I had to do a simple interface for the entire program to prove it all works. The project after passing it unfortunately got lost and I can't find its source code to show there."
+      },
+      "theImpossibleGame":{
+         "title":"Game \"The Impossible Game\"",
+         "date":"June 2019",
+         "technologies":"C++, SFML",
+         "description":"A computer game written in the SFML library for C++ is a real copy of the known flash game World's Hardest Game. It is worth mentioning that I had 3 days deadline, where I started with having a zero concept about this library. The game works identically as in the above mentioned production, I did not notice any crucial errors in it. It has 3 levels, a system of checkpoints and coins to gain."
+      },
+      "portfolioWiewiorka":{
+         "title":"Portfolio Wiewiorka",
+         "date":"June 2020",
+         "technologies":"SASS, Typescript, Angular",
+         "description":"This is the project you are there :). A special project made for getting a word on studies. To create it, I learned Angular and Typescript and I spent a lot of time on that. It's supposed to be the culmination of what I've been able to do."
+      },
+      "nextjsTemplates":{
+         "title":"Next.js templates",
+         "date":"February-March 2020",
+         "technologies":"React, JavaScript, Next.js, MongoDB",
+         "description":"As I was writing theSquirreldragon app, I came up with an idea to make a Next.js template, which one would be able to use it for many projects. The simple version has multiple language support, basic errors, and has a log module. It is intended to create static pages for customers. The advanced version has a MongoDB database support, a session, basic login&registration panel, and the ability to change users' profile. It is made to use for larger projects."
+      },
+      "UDP_Python":{
+         "title":"UDP Transfer",
+         "date":"April 2019",
+         "technologies":"Python",
+         "description":"The project was made in 2 persons for passing the Network Technologies subject. The purpose was to establish UDP transmission between the client and the server (1 to 1) in Python. The application asks whether you want to be client or server. It then works as follows: The application prompts the customer to specify the operation to be performed and the numbers required to complete the operation. It then sends the data to the server in a connectionless manner. Server process the data and sends the result back to client."
+      },
+      "Hamownia_drogowa":{
+         "title":"Road dynamometer app",
+         "date":"April 2020",
+         "technologies":"Python",
+         "description":"The project of the dynamometer itself was created in 3 persons, while the desktop application in Python was created mainly by me. It allows you to enter the appropriate parameters such as: vehicle mass, rim diameter, tyre profile and so on. Then, after reading the relevant data from the slotter sensor, it determines the RPM graph and the engine power. The application has a system which valiates the data and smooths the chart."
+      },
+      "chat":{
+         "title":"PHP Chat",
+         "date":"2016",
+         "technologies":"HTML, CSS, JQuery, PHP, MySQL",
+         "description":"A PHP chat with a userlist was one of the first projects I did. The user was able to give their nick and enter the chat. The other user who were logged in saw the new guest. Users were able to see new message and their windows were automatically scrollered down. In 2017 I uploaded this project on a free cba.pl server, which no longer exists and invited friends to it."
+      },
+      "checkers":{
+         "title":"Checkers",
+         "date":"2017",
+         "technologies":"HTML, CSS, JQuery",
+         "description":"Made in JavaScript checkers had the ability to capture pawns, move them and turn them into the queens. It is a project that I made after a chat, but I have never finished it. I placed info about them here just for the memories."
+      },
+      "microscope":{
+         "title":"Microscope",
+         "date":"2017",
+         "technologies":"HTML, LESS, JQuery",
+         "description":"That project begun when I noticed in some online store's slider the possibility to zoom-in pictures and I was interensted in how it works. In my version, however, we can determine the zoom scale."
+      }
+   },
+   "skills":{
+      "menu":{
+         "title":"Skills",
+         "subtitle":"In this section I will describe briefly the programs I can use and the languages which I operate with"
+      },
+      "group1":{
+         "title":"Adobe Creative Cloud Programs"
+      },
+      "group2":{
+         "title":"Programming languages, markups and databases",
+         "subgroup1":"Weblanguages",
+         "subgroup2":"Languages for desktop applications",
+         "subgroup3":"Database Languages"
+      },
+      "group3":{
+         "title":"Libraries and frameworks",
+         "subgroup1":"JavaScript",
+         "subgroup2":"HTML\/CSS",
+         "subgroup3":"PHP 4",
+         "subgroup4":"C++"
+      },
+      "group4":{
+         "title":"Traditional languages"
+      },
+      "group5":{
+         "title":"Music development"
+      },
+      "group6":{
+         "title":"Video Processing"
+      },
+      "group7":{
+         "title":"Microsoft Office"
+      },
+      "photoshop":{
+         "title":"Adobe Photoshop",
+         "description":"I have been interested in this program for a very long time (I used it for photo modifications, i.e. background cutting, etc.), although I started to deal with it and create some more interesting projects from January 2020, when I started to edit random photos of my family and friends. Currently I know how to do basic image processing, correct it and apply filters. In my opinion, I am still far from being a professional editor, because this program has many advanced features. I try to learn them gradually on new projects, where I always add something new. So far, all my modifications have surprised my friends and family."
+      },
+      "illustrator":{
+         "title":"Adobe Illustrator",
+         "description":"This is, in my opinion, the best program I have used. How many squirrels I drew on my fingers cannot be counted. That's the only program that will never make me tired and which I can use non-stop. I can draw with and without outlines, with and without a gradient, and things as detailed as I have no memory on my computer. I can apply filters to pictures. I also try to use different paint brushes and also create my own. In the future I would like to animate my drawings in After Effects and create scenes. I also tested Inkscape. Certainly, this program is faster, but it has a less intuitive interface."
+      },
+      "html":{
+         "title":"HTML 5",
+         "description":"Just like the life is not complete without death and taxes, there is no single web developer without HTML knowledge. I have never used the HTML 4 and some of the newer tags (especially those for audio and video), but everything can be found quickly on the internet and I think that when I will face placing the video on the site I 'll be able to handle it. I try to use not only divs, but also newer HTML 5 tags such as: article, section, main, header and so forth"
+      },
+      "css":{
+         "title":"CSS 3",
+         "description":"Typically, I start creating a page by setting the display attribute to flex for each element on the page. I know flexbox, transition and gradients well. I can use the position attribute without major surprises. I would be able to deal with problems such as creating a triangle, speech bubble or diamond."
+      },
+      "javascript":{
+         "title":"JavaScript",
+         "description":"At the beginning, I totally resigned from pure JS and started using JQuery right away. However, together with newer versions, I discovered that this library was redundant and started to learn pure JavaScript. Now I don't know what I can't do in it. It is a very complex language in which I value flexibility and low syntactic sensitivity, which gives me a sense of freedom when I write in it. I can work with asynchronous functions, arrays, classes and objects. I can run ivona with it, read files with File Reader, catch and react to errors with promises. I think I am up to date with the Ecma 2018 standard."
+      },
+      "typescript":{
+         "title":"Typescript",
+         "description":"I treat it like a JavaScript regorist uncle mixed up with C++ from which he took variable types. I learn it while studying Angular, in which I made this portfolio. If I had dealt with it before 2015, I would probably be delighted with the goodness it provided, although now that JavaScript is pretty much the same, I don't see much sense using it outside of this framework. I don't really like specifying variable types, which I also didn't like doing in C++."
+      },
+      "php":{
+         "title":"PHP 4",
+         "description":"It is a very interesting and complex server language, but the very fact that you have to change the language in which you  previously thought made me switch to Node.js. I have many memories with it, because it was the language which I started writing my first web applications with. Most of its frameworks like Laravel or Symfony are used for large and heavy projects. Additionally, probably the only databases that are fully compatible with it are SQL databases. I think I'll come back to it again, but probably not too soon."
+      },
+      "cpp":{
+         "title":"C++",
+         "description":"A language that accompanies me from the very beginning and still will probably accompany me. I can operate both in it and in pure C from which I got the book one day for Christmas. I feel that the level of education in my studies stays in 2011 and it will be a while before It will move on. I know how to operate on pointers (asterisks and shared pointers), dynamic arrays, lambda expressions, threads, maps, stacks, lists, etc. I am familiar with objects and class properties. I hate giving types everywhere and I find it quite old and completely inflexible."
+      },
+      "python":{
+         "title":"Python",
+         "description":"This language is like Wordpress for a desktop developer. Everything is built-in, you can write programs in it both objectively and linearly. For many things that I would spend 2 hours on in C++, there it is enough to load the library and write 5 lines of code. The language is pleasant, but too simple in my opinion. I think, it is not great language to begin with... because it doesn't really teach a lot of things. Whenever I have a choice to choose a language during my studies, I always choose Python because it takes me 2 days to write a project which was 5 months supposed to last. So far I have dealt with libraries like Tkinter, Matplotlib, socket, and xml. I created a few console applications and one window application."
+      },
+      "sql":{
+         "title":"SQL",
+         "description":"A database language, the purpose of which is to separate several dependencies into 300 tables, and then connect them by relations. I still deal with its functions to this day and during my studies it is the favourite language for lecturers to make students suffer. I can construct triggers, procedures, and read data in xml format. My first contact with it was while dealing with the PHP language. It is terribly leaky and easy to get sql injection attacks. I don't really like the fact that one line of text is enough to delete the entire database. I've already worked with MySQL, SQL Server and PostgreSQL."
+      },
+      "mongodb": {
+            "title": "MongoDB",
+            "description": "This language is the most enjoyable database language I have come across. It is not as difficult to secure as Firebase because it has the ability to specify its own server IP as protection against intruders, and is not as dangerous as SQL. and getting the data is not a complicated thing either. It supports multiple platforms and has many plugins. "
+        },
+        "firebase": {
+            "title": "Firebase",
+            "description": "A money-making machine written by Google. This snake tempts with many amenities, but inside it is designed so that in case of success you will not be able to leave it. It does not give any access to user data and the possibility of saving them elsewhere than in the authorization panel (because it is impossible to write rules for the database then). I used it once and it did not impress me especially that its main protection is precisely the rules. It is perfect for real-time projects and those small, static applications, due to the plethora of extras it has. "
+        },
+        "nodejs": {
+            "title": "Node.js",
+            "description": "I switched to it from Apache when I thought it would be worth learning about technologies other than PHP. I like the idea of ​​writing in Javascript on the server side. I started writing everything in Express right away so I don't know much about pure node .js. I can use many dependencies, export and import modules. I know the basic packages for building pages, such as multer or bcrypt and worked on Next.js, which I consider to be a brilliant addition that makes it very easy to use the website, its routing and webpack configuration . "
+        },
+        "react": {
+            "title": "React",
+            "description": "I haven't used React without Next.js yet, but I find the framework very nice and extremely flexible. You can do literally anything with it without using unnecessary jQuery libraries. I like the ability to import components and the fact that HTML render is in JavaScript, so JavaScript code can be plugged directly into HTML. You can make the whole site either on classes or on functions with hooks - I prefer on classes. So far it's my favorite framework and it won't beat it quickly. "
+        },
+        "angular": {
+            "title": "Angular",
+            "description": "My first contact with Angular is when making this portfolio. It's for people who like to break down the application structure into multiple files. It's not as flexible as React and requires writing all functions in components. So far I know the complete basics and I can only do business card pages with basic routing and multiple languages ​​using i18n. I learned it mostly from my Udemy course. "
+        },
+        "nextjs": {
+            "title": "Next.js",
+            "description": "I decided to write about it separately, because it is a brilliant addition that facilitates the configuration of the website. It helps to configure the webpack for scss or babel add-ons (just import the appropriate package in the configuration file), and introduce automatic routing, so you just need to put a JavaScript file in the directory to make the page accessible from the browser level. Another good thing is the _app.js configuration file, which runs when you enter any page, and _document.js, which allows you to create your own skeleton the underlying page. "
+        },
+        "jquery": {
+            "title": "JQuery",
+            "description": "The library I spent many years with and I know it inside out. It saved web developers for many years, when pure JavaScript was still lame. It systematizes the download of elements from the DOM, has easy-to-use functions that are compatible with older browsers. When developing a website with Apache and PHP, it is rather difficult to imagine a life without it. React covers it 100% by the way, it gives more interesting results and reduces the amount of written code, so if possible I prefer to go in its direction. is becoming less and less useful, but I have a lot of fondness for it. "
+        },
+        "pug": {
+            "title": "Pug",
+            "description": "I had little to do with the pug, but I did. I used it before React. It's good for simple pages. It has the ability to split the page into blocks and the ability to import, and arrange these blocks in various ways. writing tags… no tags. The code becomes so much cleaner. Too bad you can't yet link its syntax to React and its ability to put JavaScript anywhere. Such a tool would definitely be number 1 on my list. "
+         },
+         "less": {
+            "title": "LESS",
+            "description": "I don't often use mixins but I know what they are for. I like CSS structuring and the ability to use variables and import them. I use LESS when I use Apache because it can be easily added to application. "
+         },
+         "sass": {
+            "title": "SASS",
+            "description": "I use it in larger projects, but use it for the same purposes as LESSa. I don't see any major differences except the technology they are written on."
+         },
+         "symfony": {
+            "title": "Symfony",
+            "description": "It was the first framework I made my projects on. It was still in version 3. I learned to use it in the MVC model, unfortunately I did not use DRY too much then and copied the code as it fell. This framework was very large and fully synchronous. From what I remember it was terribly unintuitive and difficult, but after switching to Node.js nothing surprised me anymore. "
+         },
+         "sfml": {
+            "title": "SFML",
+            "description": "Perfect library to start learning game development. I started from there and it was fun to work with. Sometimes it was so unintuitive that it took me 5 hours to try to use the pointer to download images from disk. Unfortunately, there is not enough information. on the internet about the bugs that can occur in it. I made one game with 3 levels so far. I think I will do other Uniity games one day because I liked it a lot. "
+         },
+         "flstudio": {
+            "title": "FL Studio",
+            "description": "I can create basic beats and use the built-in VST instruments and tools. I'm still learning everything, but my work is very satisfying so far. Recently I decided to use external instruments and also record vocals to the backing track. this one was very counterintuitive for me, but over time I got a grip on it. "
+         },
+         "audacity": {
+            "title": "Audacity",
+            "description": "I used this program for my first vocal remixes and edits. I did some remixes with Alvin and the Chipmunks that I later published. I like to record audio with it because it's much easier and more intuitive than in studio."
+         },
+         "sonyvegas": {
+            "title": "Sony Vegas",
+            "description": "I started editing videos from this program. I know the basics like cuts, transitions, entrances, subtitles. I edited videos that are often needed for school. I don't have an amazing processor to render bigger things, but I managed to do it in before editing his videos of trips to Iceland. "
+         },
+         "hitfilm": {
+            "title": "Hitfilm",
+            "description": "I have edited films in it not many times and I don't know what experience with it. I think Sony Vegas is a more interesting program, but Hitfilm is a completely free program and I always recommend it to people who do not have much experience in editing . "
+         },
+         "word": {
+            "title": "Word",
+            "description": "I've been using this program for as long as I can remember. I know a lot about it (I'm not one of those people who use enter to get to the bottom of the page). I can create documents in a formal and informal style, and those that are to be typically aesthetic appearance. "
+         },
+         "excel": {
+            "title": "Excel",
+            "description": "I used the spreadsheet in high school and college. I can create graphs, use various functions to operate on data, conditional and logical. Most tasks are not scary for me, but I know people who can find a way out of more complex problems with I can't cope with it. I'm sure I can handle the basic and more advanced calculations. "
+        },
+        "powerpoint": {
+            "title": "Powerpoint",
+            "description": "Most of the presentations I created were in the powerpoint. I even made a game for school in it once. I don't have to write too much about it - I know most of the possibilities of this program."
+        },
+        "access": {
+            "title": "Access",
+            "description": "I learned to operate this database when I graduated from high school. From what I remember, these tasks were the least difficult for me always. I know everything I could do in SQL."
+        },
+        "outlook": {
+            "title": "Outlook",
+            "description": "I used this mail manager in Iceland. I picked up my mail and marked tasks on my calendar practically every day."
+        },
+        "polish": {
+            "title": "Polish language",
+            "description": "I don't have to write much about it - my mother tongue, I have spoken in it forever."
+        },
+        "english": {
+            "title": "English",
+            "description": "I operate well both orally and in writing - certainly enough that I found a job as a receptionist in Iceland. I passed the ACERT-B2 certificate in college, but so far I have not received it. however, I'm somewhere around C1 - I understand what they say in YouTube videos without subtitles. With full-length films it is only a bit worse (I only read subtitles when I want to understand the content 100%, not 80). I have no problems with talking about it, I try to speak fluently and vividly, sometimes I forget words. In the oral exam, I had 18/20 points for the certificate. "
+        },
+        "german": {
+            "title": "German",
+            "description": "Here I only know the basics. When talking to Germans I use basic words, but I try to do it correctly. So far I have never had problems with a simple conversation, when interlocutors tried to speak slowly and repeat what they said. I can do what I have learned. in junior high and high school. "
+        },
+        "russian": {
+            "title": "Russian language",
+            "description": "I learn this language for fun. It is so similar to Polish that words easily enter your head. I think I know the language to a similar degree as German. I have friends from Russia, but we usually speak English. read the Cyrillic alphabet slowly. "
         }
-    }
+    },
+    "experience": {
+        "menu": {
+            "title": "Experience",
+            "subtitle": "Here you can see the schools in which I study and the internships"
+        },
+        "schools": {
+            "main_title": "Schools I attend or graduate from",
+            "lo3": {
+                "title": "3 Secondary School in Poznań with a mathematical, physical and IT profile",
+                "text": "I attended this school for 3 years from 2015 to 2018. After all, I liked the basics of entrepreneurship, geography and biology the most. There was a lot of emphasis on mathematics and computer science, which I passed as an extended school exams. very intelligent people. "
+            },
+            "pp": {
+                "title": "Poznan University of Technology faculty of Information Technology and Telecommunications",
+                "text": "I am almost in the third year of engineering studies. These studies are for me only an extension of IT knowledge and for now I treat them as a curiosity. I learn all the most necessary things myself. From this I learned how to work with assembler, linux, microprocessors, e.t.c."
+            }
+        },
+        "jobs": {
+            "title": "Internships",
+            "fourthFloor": {
+                "title": "Receptionist 4th Floor Hotel in Reikjawik",
+                "text": "A crazy trip to Iceland in the summer of 2019, which I will remember for years. I worked for 2 months as a receptionist in a small hotel in Reykjavik. During the breaks between serving clients in English and fighting their PMS, I wrote them scripts to make their lives easier. browser. I also visited Reikjawik and a large part of Iceland on trips. "
+            }
+      }
+   }
 }
