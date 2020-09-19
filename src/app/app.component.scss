@@ -57,6 +57,10 @@ nav {
       }
     }
 
+    #menu_icon {
+      display: none;
+    }
+
     #topNav_buttons {
       justify-content: space-between;
       width: 70%;
@@ -101,6 +105,7 @@ nav {
       }
     }
   }
+  
   .slideBar_wrapper{
     z-index: 4;
     position: absolute;
@@ -191,7 +196,7 @@ nav {
           transition: transform 0.1s ease-in;
         }
         #slideBar_title, #slideBar_subtitle {
-          background-color:#D4AD21;
+          background-color:#C19918;
           border-radius: 5%;
           padding: 1vh 2vw;
           color: #ddd;
@@ -214,6 +219,9 @@ nav {
         transform: translateY(1%) translateX(1%) skewY(2deg);
       }
     }
+  }
+  #mobile_menu {
+    display: none;
   }
 }
 
@@ -331,9 +339,150 @@ footer {
     font-weight: bold;
   }
 }
+@media (max-width: 260px) {
+  #mobile_menu {
+       flex-direction: column !important;
+       &>*{
+         margin: 2vh 0;
+       }
+  }
+  #footbar_media {
+    flex-direction: row !important;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 850px), (max-height: 350px) {
+  #menu_icon {
+    display: flex !important;
+    color: #ddd;
+    font-size: 20px;
+    cursor: pointer;
 
-@media screen and (max-height: 500px) {
+    &:hover {
+      color: #C33C54;
+    }
+  }
+  #topNav_home_container {
+    display: none !important;
+  }
+  .slideBar_wrapper {
+    display: none !important;
+  }
+  .toggle_mobile_menu {
+    transform: none !important;
+  }
+  #mobile_menu {
+    display: flex !important;
+    position: absolute;
+    left: 0;
+    width: 100vw;
+    top: 100%;
+    padding: 2vw;
+    transform: translateY(-100%);
+    transition: ease-in 200ms;
+    
+    background-color: #333;
+
+    .topNav_home {
+      padding: 0 2vw;
+      padding-right: 5vw;
+      color: #ddd;
+      cursor: pointer;
+      font-size: 30px;
+      transition: color 200ms;
+      &:hover{
+        color: #C33C54;
+      }
+    }
+    .mobile_cont2 {
+      flex-direction: column;
+      align-items: flex-start !important;
+      border-left: 1px white solid;
+
+      a {
+        text-align: left;
+          color: #ddd;
+          text-decoration: none;
+          padding: 2vw 5vw;
+          &:hover{
+            color: #C33C54;
+          }
+          &:hover:before {
+            background-color: #C33C54;
+          }
+          &:before {
+            display: block;
+            content: '';
+            margin-right: 5vw;
+            width: 15px;
+            height: 15px;
+            background-color: #E2C044;
+            border-radius: 50%;
+            transition: background-color 200ms;
+          }
+      }
+    }
+    
+    #footbar_media {
+      flex-direction: column;
+    }
+    .media_container {
+      height: 5vw;
+      min-height: 30px;
+      min-width: 30px;
+      width: 5vw;
+      border-radius: 50%;
+      margin: 5px 10px;
+      opacity: 80%; 
+      color: #eee;
+      font-size: 20px;
+      cursor: pointer;
+      transition: filter 0.5s;
+    }
+    .media_container:hover {
+      filter: brightness(120%);
+    }
+    .fb_style {
+      background-color: #4F70B8;
+      transform: rotate(10deg);
+    }
+    .gh_style {
+      background-color: #7C007C;
+      transform: rotate(-30deg);
+    }
+    .bb_style {
+      background-color: #0047B3;
+      transform: rotate(40deg);
+    }
+    .em_style {
+      background-color: #AC2F20;
+      transform: rotate(-20deg);
+    }
+}
+
+  #topNav_select_container {
+    #topNav_select {
+      position: absolute !important;
+      right: 10vw !important;
+      font-size: 12px !important;
+      width: 100px !important;
+      margin-right: 2vw !important;
+    }
+  }
+  
+  #topNav_buttons a {
+    display: none !important;
+  }
   .mushroom_container {
     bottom: 10vh !important;
+  }
+  .footbar {
+    display: none !important;
+  }
+
+  footer {
+    padding: 5vh 0;
+    font-size: 2vw !important;
+    white-space: nowrap;
   }
 }

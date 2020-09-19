@@ -6,6 +6,7 @@
           <p><fa-icon [icon]="fonts.faHome"></fa-icon></p>
         </div>
       </div>
+      <fa-icon [icon]="fonts.faBars" id="menu_icon" (click)="mobile_menu_toggle()"></fa-icon>
       <div id="topNav_buttons">
         <a routerLink="/projects">{{ 'general.menu.tab2' | translate }}</a>
         <a routerLink="/skills">{{ 'general.menu.tab3' | translate }}</a>
@@ -16,6 +17,32 @@
           <option value='pl' [selected]="selectedLang=='pl'">polski</option>
           <option value='en' [selected]="selectedLang=='en'">English</option>
         </select>
+      </div>
+    </div>
+
+    <div id="mobile_menu">
+      <div class="topNav_home" routerLink="">
+        <p><fa-icon [icon]="fonts.faHome"></fa-icon></p>
+      </div>
+      <div class="mobile_cont2">
+        <a routerLink="/projects">{{ 'general.menu.tab2' | translate }}</a>
+        <a routerLink="/skills">{{ 'general.menu.tab3' | translate }}</a>
+        <a routerLink="/experience">{{ 'general.menu.tab4' | translate }}</a>
+      </div>
+
+      <div id="footbar_media">
+        <a href="https://www.linkedin.com/in/hubert-siwczy%C5%84ski-aa01a8164/" target="_blank">
+          <div class="media_container fb_style"><fa-icon [icon]="fonts.faLinkedin"></fa-icon></div>
+        </a>
+        <a href="https://github.com/Hubert13888" target="_blank">
+          <div class="media_container gh_style"><fa-icon [icon]="fonts.faGithub"></fa-icon></div>
+        </a>
+        <a href="https://bitbucket.org/Hubert138881/" target="_blank">
+          <div class="media_container bb_style"><fa-icon [icon]="fonts.faBitbucket"></fa-icon></div>
+        </a>
+        <a href="mailto:hubertsiwczynski@gmail.com">
+          <div class="media_container em_style" (click)="mail_show()"><fa-icon [icon]="fonts.faEnvelope"></fa-icon></div>
+        </a>
       </div>
     </div>
 

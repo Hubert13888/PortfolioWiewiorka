@@ -2,12 +2,11 @@
     padding-top: 10vh;
     .wallpaper {
         background: url('/assets/backgrounds/background3.jpg');
-        filter: invert(75%);
+        filter: blur(5px) brightness(60%);
     }
     #textbar {
         flex-direction: column;
         width: 75vw;
-        padding: 10vh;
         background-color: #ddd;
 
         .group {
@@ -37,5 +36,14 @@
                 }
             }
         }
+    }
+}
+
+@media (max-width: 750px) {
+    .group_row {
+        img {
+            margin-bottom: 10vh;
+        }
+        flex-direction: column;
     }
 }

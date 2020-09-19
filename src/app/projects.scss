@@ -1,14 +1,8 @@
 #background {
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding-top: 15vh;
-    width: 98vw;
     #textbar {
         flex-direction: column;
         width: 75vw;
         min-height: 65vh;
-        padding: 10vh;
         background-color: #ddd;
 
         .tab_subtitle {
@@ -42,7 +36,10 @@
                 min-width: 50vw;
 
                 .subtitle_info {
+                    position: relative;
+                    top: 0;
                     flex-direction: column;
+                    text-align: center;
 
                     .subtitle_info_title {
                         font-weight: bold;
@@ -68,6 +65,14 @@
                 max-width: 70vw;
                 max-width: 40vh;
             }
+        }
+    }
+}
+@media screen and (max-width: 1000px){
+    .group_subtitle {
+        flex-direction: column;
+        .subtitle_info {
+            margin-top: 5vw;
         }
     }
 }

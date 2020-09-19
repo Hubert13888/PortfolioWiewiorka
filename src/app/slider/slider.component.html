@@ -4,4 +4,8 @@
         <img [src]="base + pictureRoutes[key][currentIndex]"/>
     </div>
     <button class="slider_rightArrow slider_arrow" *ngIf="pictureRoutes[key].length > 1" (click)="change_picture(true)">></button>
+    <div id="mobile_navigation">
+        <button class="slider_mobnav_leftArrow slider_mobnav_arrow" *ngIf="pictureRoutes[key].length > 1" (click)="change_picture(false)"><</button>
+        <button class="slider_mobnav_rightArrow slider_mobnav_arrow" *ngIf="pictureRoutes[key].length > 1" (click)="change_picture(true)">></button>
+    </div>
 </div> 

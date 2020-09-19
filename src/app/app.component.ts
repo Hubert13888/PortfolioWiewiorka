@@ -2,7 +2,7 @@ import { Component, ViewEncapsulation, OnInit } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 import { environment } from './../environments/environment';
 import { deleteCookie, getCookie, setCookie } from '../assets/scripts/cookies';
-import { faHome, faPizzaSlice, faEnvelope} from '@fortawesome/free-solid-svg-icons';
+import { faHome, faPizzaSlice, faEnvelope, faBars} from '@fortawesome/free-solid-svg-icons';
 import { faFacebook, faGithub, faBitbucket, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 @Component({
@@ -21,16 +21,11 @@ export class AppComponent {
     faGithub,
     faBitbucket,
     faEnvelope,
-    faLinkedin
+    faLinkedin,
+    faBars
   };
 
   constructor(private translate: TranslateService) {
-    const ua = navigator.userAgent;
-
-    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini|Mobile|mobile|CriOS/i.test(ua)) {
-      alert('Przepraszam, ale ta strona nie ma na razie wersji mobilnej. Mogą wystąpić problemy z rozdzielczością.');
-    }
-
     translate.addLangs(['en', 'pl']);
     const lang = getCookie('lang');
     if (lang === '') {
@@ -45,7 +40,6 @@ export class AppComponent {
   }
 
   useLanguage(language: any) {
-    console.log(language);
     setCookie('lang', language, 30);
     this.translate.use(language);
   }
@@ -60,6 +54,10 @@ export class AppComponent {
         alert("Official e-mail: \n\nhubertsiwczynski@gmail.com");
         break;
     }
+  }
+  mobile_menu_toggle() {
+    document.getElementById('mobile_menu')
+          .classList.toggle('toggle_mobile_menu');
   }
 
   foot_toggle() {

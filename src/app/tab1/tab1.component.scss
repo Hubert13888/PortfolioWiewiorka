@@ -1,23 +1,15 @@
 #footbar_main {
     transform: none;
 }
-.foot_close_slide_animaion {
-    transform: translateX(10vw) !important;
-}
-.foot_close_rotate_animaion {
-    transform: rotate(-540deg);
-}
 
 #background {
     .wallpaper {
         background: url('/assets/backgrounds/background3.jpg');
-        filter:invert(100%) blur(5px) brightness(60%) ;
+        filter: invert(100%) blur(5px) brightness(60%);
     }
     #textbar {
         flex-direction: column;
         width: 75vw; 
-        margin: 5vh 15vh 0 0;
-        padding-top: 5vh;
         background-color: rgba(221, 221, 221, 0.2);
         color: #222; 
 
@@ -55,6 +47,10 @@
                 border-radius: 30%;
                 transform: rotate(20deg);
             }
+
+            #picture_mob {
+                display: none;
+            }
             
             p {
                 margin-bottom: 5vw;
@@ -82,17 +78,18 @@
             flex-direction: column;
 
             h2 {
-                font-size: 3vw;
+                font-size: 30px;
+                margin-bottom: 10vh;
                 color: #fff;
             }
             p {
-                font-size: 1.5vw;
+                font-size: 16px;
                 text-align: center;
                 padding: 3vh 3vw;
                 border: rgb(244, 0, 118) dashed 0.4vw;
                 border-radius: 30%;
                 color: #2C2A4A;
-                margin: 5vh 0 ;
+                margin: 5vh 0;
             }
             img {
                 border-radius: 5%;
@@ -122,19 +119,39 @@
     }
 }
 
-@media screen and (max-width: 1000px) {
+@media (max-width: 750px), (max-height: 350px) {
     .textbar_about_me {
+        background: none !important;
+        #picture_mob {
+            display: flex !important;
+        }
         p {
+            width: 90% !important;
+            font-size: 16px !important;
+            margin: 0 !important;
             margin-bottom: 20vw !important;
         }
         h1 {
-            margin-bottom: 8vw !important;
+            font-size: 50px !important;
+            align-self: normal !important;
+            transform: none !important;
+            margin: 1vw 0 !important;
         }
     }
+    
     .textbar_about_me_org2{
         max-width: 100% !important;
     }
     .textbar_about_me_org1{
         flex-direction: column-reverse; 
+    }
+    #picture_1 {
+        width: 100% !important;
+    }
+    #picture_2 {
+        width: 130% !important;
+    }
+    #picture_3 {
+        width: 90% !important;
     }
 }

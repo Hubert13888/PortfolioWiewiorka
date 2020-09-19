@@ -2,6 +2,7 @@
     padding-top: 10vh;
     .wallpaper {
         background: url('/assets/backgrounds/background3.jpg');
+        filter: hue-rotate(90deg) blur(5px) brightness(60%);
     }
     #textbar {
         flex-direction: column;
@@ -10,13 +11,14 @@
         background-color: #ddd;
 
         .projectContainer {
+            flex-wrap: wrap;
             width: 100%;
             background-color: #9CC0C2;
-            padding: 15vh 0vw;
+            padding: 15vh 0;
             justify-content: center;
             
             & > * {
-                margin: 0 2vw;
+                margin: 5vw 2vw;
             }
         }
     }
