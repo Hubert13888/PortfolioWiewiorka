@@ -10,6 +10,10 @@ export class Tab22Component implements OnInit {
 
   public type = 'medium';
   public urls = {
+    game_2048: [
+      'https://github.com/Hubert13888/2048',
+      'https://zkgdz.sse.codesandbox.io/'
+    ],
     theImpossibleGame: ['https://github.com/Hubert13888/TheImpossibleGame',
                         'https://drive.google.com/file/d/11n1boJ1gZx6BumzlbsrL49Y8hjFGNif_/view?usp=sharing'
                       ],
@@ -24,6 +28,7 @@ export class Tab22Component implements OnInit {
     Hamownia_drogowa: ['https://github.com/PUT-PTM-2020/P45/tree/master/Aplikacja_Python']
   };
   public projects = [
+    'game_2048',
     'theImpossibleGame',
     'nextjsTemplates',
     'portfolioWiewiorka',

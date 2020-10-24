@@ -1,6 +1,6 @@
-<div class="item_wrapper">
-    <img [src]="'/assets/cat_images/'+img+'.png'" class="group_item">
-    <div class="item_info_wrapper" [routerLink]="'/projects/'+cat">
-        <div class="item_info"><p>{{'projects.categories.'+cat | translate}}</p></div>
+<div class="item_description_wrapper">
+    <div class="item_wrapper">
+        <img [src]="'/assets/cat_images/'+img+'.png'" class="group_item" [routerLink]="'/projects/'+cat">
     </div>
+    <p>{{'projects.categories.'+cat | translate}}</p>
 </div>

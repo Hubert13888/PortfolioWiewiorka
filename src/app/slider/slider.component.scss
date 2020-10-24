@@ -59,13 +59,13 @@
 }
 @media (max-width: 850px), (max-height: 350px) {
     .image_container {
-        width: 120% !important;
-        max-height: 500px !important;
+        width: 80vw !important;
+        height: 80vw !important;
+        max-height: 80vw !important;
         padding: 10px 0 !important;
         img {
-            width: 175% !important;
-            max-height: 100% !important;
-            max-width: none !important;
+            max-height: 80vw !important;
+            max-width: 100% !important;
         }
     }
     .slider {

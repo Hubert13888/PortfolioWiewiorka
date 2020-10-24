@@ -2,13 +2,13 @@
   <nav>
     <div class='topNav'>
       <div id="topNav_home_container">
-        <div id="topNav_home" routerLink="">
-          <p><fa-icon [icon]="fonts.faHome"></fa-icon></p>
+        <div id="topNav_home" routerLink="/projects">
+          <p><fa-icon [icon]="fonts.faCodeBranch"></fa-icon></p>
         </div>
       </div>
       <fa-icon [icon]="fonts.faBars" id="menu_icon" (click)="mobile_menu_toggle()"></fa-icon>
       <div id="topNav_buttons">
-        <a routerLink="/projects">{{ 'general.menu.tab2' | translate }}</a>
+        <a routerLink="">{{ 'general.menu.tab1' | translate }}</a>
         <a routerLink="/skills">{{ 'general.menu.tab3' | translate }}</a>
         <a routerLink="/experience">{{ 'general.menu.tab4' | translate }}</a>
       </div>
@@ -21,11 +21,11 @@
     </div>
 
     <div id="mobile_menu">
-      <div class="topNav_home" routerLink="">
-        <p><fa-icon [icon]="fonts.faHome"></fa-icon></p>
+      <div class="topNav_home" routerLink="/projects">
+        <p><fa-icon [icon]="fonts.faCodeBranch"></fa-icon></p>
       </div>
       <div class="mobile_cont2">
-        <a routerLink="/projects">{{ 'general.menu.tab2' | translate }}</a>
+        <a routerLink="">{{ 'general.menu.tab1' | translate }}</a>
         <a routerLink="/skills">{{ 'general.menu.tab3' | translate }}</a>
         <a routerLink="/experience">{{ 'general.menu.tab4' | translate }}</a>
       </div>

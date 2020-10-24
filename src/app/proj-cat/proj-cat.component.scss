@@ -1,3 +1,14 @@
+.item_description_wrapper {
+    flex-direction: column;
+    p {
+        color: #002A32;
+        font-size: max(18px, 1.75vw);
+        margin-top: 15px;
+    }
+    &:hover p {
+        color: #816913;
+    }
+}
 
 .item_wrapper {
     position: relative;
@@ -11,36 +22,16 @@
     overflow: hidden;
     cursor: pointer;
     text-align: center;
-    .item_info_wrapper {
-        position: absolute;
-        width: inherit; 
-        height: inherit;
-        min-width: inherit;
-        min-height: inherit;
-        padding: inherit;
-        transform: translateY(0%);
-        transition: linear 100ms;
 
+    img {
+        scale: 105%;
+        transition: scale 200ms;
         &:hover {
-            transform: translateY(100%);
+            scale: 150%;
         }
-
-        .item_info {
-            position: absolute;
-            top: -100%;
-            width: inherit; 
-            height: inherit;
-            min-width: inherit;
-            min-height: inherit;
-            padding: inherit; 
-            border-radius: 7%;
-            background-color: rgba(237, 185, 21, 0.9);
-
-            p {
-                color: #002A32;
-                font-size: 16px; 
-            }
-        }
+    }
+    &:hover {
+        border: #E2C044 5px solid;
     }
 
     .group_item {

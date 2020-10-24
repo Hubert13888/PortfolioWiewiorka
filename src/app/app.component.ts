@@ -2,8 +2,8 @@ import { Component, ViewEncapsulation, OnInit } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 import { environment } from './../environments/environment';
 import { deleteCookie, getCookie, setCookie } from '../assets/scripts/cookies';
-import { faHome, faPizzaSlice, faEnvelope, faBars} from '@fortawesome/free-solid-svg-icons';
-import { faFacebook, faGithub, faBitbucket, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faPizzaSlice, faEnvelope, faBars, faCodeBranch} from '@fortawesome/free-solid-svg-icons';
+import { faFacebook, faGithub, faBitbucket, faLinkedin, faGitAlt } from '@fortawesome/free-brands-svg-icons';
 
 @Component({
   encapsulation: ViewEncapsulation.None,
@@ -15,7 +15,7 @@ export class AppComponent {
   title = 'Portfolio';
   selectedLang = 'pl';
   fonts = {
-    faHome,
+    faCodeBranch,
     faPizzaSlice,
     faFacebook,
     faGithub,

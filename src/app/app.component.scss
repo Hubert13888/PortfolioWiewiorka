@@ -285,37 +285,37 @@ nav {
         }
       }
     }
-
-    .media_container {
-      height: 5vw;
-      min-height: 30px;
-      min-width: 30px;
-      width: 5vw;
-      border-radius: 50%;
-      opacity: 80%; 
-      color: #eee;
-      font-size: 3vw;
-      cursor: pointer;
-      transition: filter 0.5s;
-    }
-    .media_container:hover {
-      filter: brightness(120%);
-    }
-    .fb_style {
-      background-color: #4F70B8;
-      transform: rotate(10deg);
-    }
-    .gh_style {
-      background-color: #7C007C;
-      transform: rotate(-30deg);
-    }
-    .bb_style {
-      background-color: #0047B3;
-      transform: rotate(40deg);
-    }
-    .em_style {
-      background-color: #AC2F20;
-      transform: rotate(-20deg);
+    a {
+      width: 100%;
+      height: 25%;
+      .media_container {
+        height: 100%;
+        width: 100%;
+        opacity: 80%; 
+        color: #eee;
+        font-size: 3vw;
+        cursor: pointer;
+        transition: filter 0.5s;
+      }
+      .media_container:hover {
+        filter: brightness(120%);
+      }
+      .fb_style {
+        background-color: #4F70B8;
+        //transform: rotate(10deg);
+      }
+      .gh_style {
+        background-color: #7C007C;
+        //transform: rotate(-30deg);
+      }
+      .bb_style {
+        background-color: #0047B3;
+        //transform: rotate(40deg);
+      }
+      .em_style {
+        background-color: #AC2F20;
+        //transform: rotate(-20deg);
+      }
     }
   }
 }
